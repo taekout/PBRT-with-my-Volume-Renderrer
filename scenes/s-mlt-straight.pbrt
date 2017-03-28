@@ -1,0 +1,61 @@
+#LookAt eye position(ex,ey,ez) lookAt position(lx,ly,lz) Camera Up Vector(ux,uy,uz)
+#Renderer "metropolis" "integer samplesperpixel" [8192] 
+    #"bool dodirectseparately" ["false"]
+LookAt 6.3 1.0 1.0   1.0 1.0 1.0 0 1 0 #1.2 .7 0    0 1 0
+Camera "perspective" "float fov" [28]
+Film "image" "integer xresolution" [800] "integer yresolution" [800]
+    "string filename" "s-mlt-straight.exr"
+
+Sampler "bestcandidate" "integer pixelsamples" [15]
+PixelFilter "triangle"
+
+VolumeIntegrator "single" "float stepsize" [.025]
+			"integer volumeGridSizeX" [32]
+			"integer volumeGridSizeY" [32]
+			"integer volumeGridSizeZ" [32]
+			"float largestepprobability" [.25]
+			"integer samplesperpixel" [100]
+			"integer bootstrapsamples" [100000]
+			"integer directsamples" [4]
+			"bool dodirectseparately" ["true"]
+			"integer maxconsecutiverejects" [512]
+			"integer maxdepth" [7]
+			"bool bidirectional" ["true"]
+			# from here test with the values!
+			#"integer maxLargeScatterRays" [5]
+			"float rayMarchingStepSize" [0.1]
+			"integer maxRayMarching" [20]		# number of ray marching points through scattering rays(from both light and eye rays.)
+			"integer nLargeScatterRays" [20]	# number of rays from a scattering point.
+			"integer nLargeLightScatterRays" [20]
+			"float raymarchingEyeDistanceScale" [10.0]   #  eye  raymarching distance before dying.
+			"float raymarchingLightDistanceScale" [40.0] # light raymarching distance before dying.
+			"bool voxelization" ["false"]
+
+WorldBegin
+
+Include "geometry/simpleVolume.pbrt"
+  "color sigma_a" [1 1 1] "color sigma_s" [1 1 1]
+  "float g" [0.64]
+  "color Le" [0 0 0] # emittance coeff. ==> It becomes Le value in VolumeRegion(or VolumeGridRegion). VolumeRegion::Lve() returns density * Le.
+  # make reasonable fire model.(shape)
+  # test sigma_s = 0
+  # test some increasing sigma_s up to 4( as an upper limit.)
+  # phase function is the last thing to worry about. g can be 0.
+  # make shadow from sun light.(Sigma_s becomes important.)
+  # Temperature high = white, T mid = (low+high) = yellow, low =red. (Plank function = B(T))
+ 
+#LightSource "point" "point from" [0 10 2] "color I" [10 0 0]
+AttributeBegin
+#AreaLightSource "area" "color L" [9500 9500 9500 ] "integer nsamples" [4]
+LightSource "point" "point from" [1 1 1] "color I" [100 0 0]
+										"bool FireLight" ["true"]
+										#"color FireI" [1000 0 0]
+
+                                                                                 # 0.pPrev = (0.034, 1.18, 1.39)
+                                                                                 # 1.pCur =  (0.033, 1.98, 1.36)
+                                                                                 # light pos = { x=0.56687498 y=0.38124999 z=0.93812501 },
+                                                                                 #             { x=1.6806250  y=1.2474999  z=0.93812501 },
+                                                                                 #             { x=0.62874997 y=1.2474999  z=1.6187500  }
+AttributeEnd
+
+WorldEnd

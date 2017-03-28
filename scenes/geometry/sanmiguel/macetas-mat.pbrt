@@ -1,0 +1,377 @@
+
+### Object: Porta Macetas Gancho45 ### 
+Texture "Forja_Macetas_Diffue" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Forja_Macetas.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Forja_Macetas_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Forja_Macetas_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Forja_Macetas_Bump_bump" "float" "scale" "texture tex1" "Forja_Macetas_Bump" "float tex2" [0.02]  
+Texture "Forja_Macetas_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Forja_Macetas_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Forja_Macetas_Rough_RoughMap" "float" "scale" "texture tex1" "Forja_Macetas_Rough" "float tex2" [0.0]  
+MakeNamedMaterial "Forja_Macetas" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.164706 0.164706 0.164706]
+	 "texture Kd" ["Forja_Macetas_Diffue"]
+	 "texture roughness" "Forja_Macetas_Rough_RoughMap"
+	 "texture bumpmap" ["Forja_Macetas_Bump_bump"]
+
+### End Object: Porta Macetas Gancho45 ### 
+
+### Object: Maceta A ### 
+Texture "Maceta_A_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_A_Color.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_A_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_A_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_A_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_A_Rough"] "float tex2" [40.0]  
+Texture "MacetaA_BumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_A_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "MacetaA_BumpMap_bump" "float" "scale" "texture tex1" "MacetaA_BumpMap" "float tex2" [0.005]  
+MakeNamedMaterial "Maceta_A" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_A_Diffuse"]
+	 "texture sigma" ["Maceta_A_Rough_sigma"]
+	 "texture bumpmap" ["MacetaA_BumpMap_bump"]
+
+### End Object: Maceta A ### 
+
+### Object: Maceta A04 ### 
+Texture "Maceta_A2_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_A2_Color.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_A2_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_A_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_A2_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_A2_Rough"] "float tex2" [30.0]  
+Texture "Maceta_A2_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_A_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_A2_Bump_bump" "float" "scale" "texture tex1" "Maceta_A2_Bump" "float tex2" [0.005]  
+MakeNamedMaterial "Maceta_A2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_A2_Diffuse"]
+	 "texture sigma" ["Maceta_A2_Rough_sigma"]
+	 "texture bumpmap" ["Maceta_A2_Bump_bump"]
+
+### End Object: Maceta A04 ### 
+
+### Object: Maceta B ### 
+Texture "Maceta_B_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_B_Color.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_B_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_B_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_B_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_B_Rough"] "float tex2" [30.0]  
+Texture "Maceta_B_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_B_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_B_Bump_bump" "float" "scale" "texture tex1" "Maceta_B_Bump" "float tex2" [0.01]  
+MakeNamedMaterial "Maceta_B" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_B_Diffuse"]
+	 "texture sigma" ["Maceta_B_Rough_sigma"]
+	 "texture bumpmap" ["Maceta_B_Bump_bump"]
+
+### End Object: Maceta B ### 
+
+### Object: Maceta B2 ### 
+Texture "Maceta_B2_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_B2_Color.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_B2_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_B_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_B2_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_B2_Rough"] "float tex2" [35.0]  
+Texture "Maceta_B2_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_B_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_B2_Bump_bump" "float" "scale" "texture tex1" "Maceta_B2_Bump" "float tex2" [0.005]  
+MakeNamedMaterial "Maceta_B2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_B2_Diffuse"]
+	 "texture sigma" ["Maceta_B2_Rough_sigma"]
+	 "texture bumpmap" ["Maceta_B2_Bump_bump"]
+
+### End Object: Maceta B2 ### 
+
+### Object: Maceta C03 ### 
+Texture "Maceta_C_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_C_Color.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_C_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_C_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_C_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_C_Rough"] "float tex2" [30.0]  
+Texture "Maceta_C_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_C_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_C_Bump_bump" "float" "scale" "texture tex1" "Maceta_C_Bump" "float tex2" [0.005]  
+MakeNamedMaterial "Maceta_C" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_C_Diffuse"]
+	 "texture sigma" ["Maceta_C_Rough_sigma"]
+	 "texture bumpmap" ["Maceta_C_Bump_bump"]
+
+### End Object: Maceta C03 ### 
+
+### Object: Maceta C2 ### 
+Texture "Maceta_C2_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_C2_Color.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_C2_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_C_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_C2_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_C2_Rough"] "float tex2" [40.0]  
+Texture "Maceta_C2_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_C_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_C2_Bump_bump" "float" "scale" "texture tex1" "Maceta_C2_Bump" "float tex2" [0.02]  
+MakeNamedMaterial "Maceta_C2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_C2_Diffuse"]
+	 "texture sigma" ["Maceta_C2_Rough_sigma"]
+	 "texture bumpmap" ["Maceta_C2_Bump_bump"]
+
+### End Object: Maceta C2 ### 
+
+### Object: Maceta D2 ### 
+Texture "Maceta_D2_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_D2_Color_0.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_D2_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_D_Bump_0.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Maceta_D2_Rough_sigma" "float" "scale" "texture tex1" ["Maceta_D2_Rough"] "float tex2" [20.0]  
+Texture "MacetaD_BumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Maceta_D_Bump_0.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "MacetaD_BumpMap_bump" "float" "scale" "texture tex1" "MacetaD_BumpMap" "float tex2" [0.005]  
+MakeNamedMaterial "Maceta_D2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Maceta_D2_Diffuse"]
+	 "texture sigma" ["Maceta_D2_Rough_sigma"]
+	 "texture bumpmap" ["MacetaD_BumpMap_bump"]
+
+### End Object: Maceta D2 ### 

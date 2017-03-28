@@ -1,0 +1,180 @@
+
+### Object: Tronco ### 
+Texture "ArbolTroncoDiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_tronco.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "ArbolTroncoBumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_tronco_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "ArbolTroncoBumpMap_bump" "float" "scale" "texture tex1" "ArbolTroncoBumpMap" "float tex2" [0.02]  
+MakeNamedMaterial "Tronco" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["ArbolTroncoDiffuseMap"]
+	 "texture bumpmap" ["ArbolTroncoBumpMap_bump"]
+
+### End Object: Tronco### 
+
+### Object: Plane01 ### 
+Texture "Leave A_a_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02a.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Leave A_a_BumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Leave A_a_BumpMap_bump" "float" "scale" "texture tex1" "Leave A_a_BumpMap" "float tex2" [0.01]  
+Texture "Leave A_a_Alpha" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02_alpah.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Leave A_a" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.3 0.3 0.3]
+	 "color transmit" [0.3 0.3 0.3]
+	 "texture Kd" ["Leave A_a_Diffuse"]
+	 "texture bumpmap" ["Leave A_a_BumpMap_bump"]
+
+### End Object: Plane01 ### 
+
+### Object: Plane02 ### 
+Texture "Leave A_b_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02b.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Leave A_b_BumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Leave A_b_BumpMap_bump" "float" "scale" "texture tex1" "Leave A_b_BumpMap" "float tex2" [0.01]  
+Texture "Leave A_b_Alpha" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02_alpah.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Leave A_b" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.3 0.3 0.3]
+	 "color transmit" [0.3 0.3 0.3]
+	 "texture Kd" ["Leave A_b_Diffuse"]
+	 "texture bumpmap" ["Leave A_b_BumpMap_bump"]
+
+### End Object: Plane02 ### 
+
+### Object: Plane03 ### 
+Texture "Leave A_c_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_03a.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Leave A_c_BumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Leave A_c_BumpMap_bump" "float" "scale" "texture tex1" "Leave A_c_BumpMap" "float tex2" [0.01]  
+Texture "Leave A_c_Alpha" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/sm_leaf_02_alpah.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Leave A_c" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.3 0.3 0.3]
+	 "color transmit" [0.3 0.3 0.3]
+	 "texture Kd" ["Leave A_c_Diffuse"]
+	 "texture bumpmap" ["Leave A_c_BumpMap_bump"]
+
+### End Object: Plane03 ### 

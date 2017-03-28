@@ -1,0 +1,184 @@
+
+### Object: Plato A87 ### 
+Texture "PlatoAMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/plato_a.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Plato A" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.129412 0.129412 0.129412]
+	 "float roughness"  [0.005] 
+	 "texture Kd" ["PlatoAMap"]
+
+### End Object: Plato A87 ### 
+
+### Object: Individual63 ### 
+Texture "Individual Verde_Map" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/individual_b.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Individual Verde" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "texture Kd" ["Individual Verde_Map"]
+
+### End Object: Individual63 ### 
+
+### Object: Cenisero21 ### 
+Texture "Map #98" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/cenicero.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cenicero" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.215686 0.215686 0.215686]
+	 "float roughness"  [0.002] 
+	 "texture Kd" ["Map #98"]
+
+### End Object: Cenisero21 ### 
+
+### Object: Base Lampara Vela21 ### 
+Texture "Map #97" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/ceramic_tile.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Base Vela Color" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "texture Kd" ["Map #97"]
+
+### End Object: Base Lampara Vela21 ### 
+
+### Object: Vela21 ### 
+MakeNamedMaterial "Vela" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.321569 0.321569 0.321569]
+	 "float roughness"  [0.8] 
+	 "color Kd" [0.776471 0.756863 0.721569]
+
+### End Object: Vela21 ### 
+
+### Object: Vela Mecha21 ### 
+MakeNamedMaterial "Vela Mecha" 
+	 "string type" ["matte"] 
+	 "color Kd" [0.121569 0.113726 0.101961]
+
+### End Object: Vela Mecha21 ### 
+
+### Object: Pimienta21 ### 
+Texture "PimientaMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/PITTED.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "PimientaBumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/PITTED.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "PimientaBumpMap_bump" "float" "scale" "texture tex1" "PimientaBumpMap" "float tex2" [0.8]  
+MakeNamedMaterial "Pimienta" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["PimientaMap"]
+	 "texture bumpmap" ["PimientaBumpMap_bump"]
+
+### End Object: Pimienta21 ### 
+
+### Object: Salero Cromo42 ### 
+MakeNamedMaterial "Cromo" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.898039 0.807843 0.709804]
+	 "float roughness"  [0.002] 
+	 "color Kd" [0.0862745 0.0823529 0.0745098]
+
+### End Object: Salero Cromo42 ### 
+
+### Object: Sal21 ### 
+Texture "SalBumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/PITTED.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "SalBumpMap_bump" "float" "scale" "texture tex1" "SalBumpMap" "float tex2" [0.2]  
+MakeNamedMaterial "Sal" 
+	 "string type" ["matte"] 
+	 "color Kd" [0.776471 0.74902 0.709804]
+	 "texture bumpmap" ["SalBumpMap_bump"]
+
+### End Object: Sal21 ### 
+
+### Object: Tenedor_Plastico87 ### 
+MakeNamedMaterial "Plastico Cubiertos" 
+	 "string type" ["glass"] 
+	 "color Kr" [1.0 1.0 1.0] "color Kt" [0.694118 0.850981 1.0] "float index" [1.5] 
+
+### End Object: Tenedor_Plastico87 ### 
+
+### Object: Copa_Chica87 ### 
+MakeNamedMaterial "Copas" 
+	 "string type" ["glass"] 
+	 "color Kr" [0.545098 0.545098 0.545098] "color Kt" [1.0 1.0 1.0] "float index" [1.5] 
+
+### End Object: Copa_Chica87 ### 
+
+### Object: Pimientero_Vidrio21 ### 
+MakeNamedMaterial "VidrioSalero" 
+	 "string type" ["glass"] 
+	 "color Kr" [1.0 1.0 1.0] "color Kt" [1.0 1.0 1.0] "float index" [1.5] 
+
+### End Object: Pimientero_Vidrio21 ### 

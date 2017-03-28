@@ -1,0 +1,33 @@
+
+Texture "terrain" "color" "constant" "color value" [.12 .08 .08 ]
+
+#Texture "apple-leaves" "color" "constant" "color value" [.5 .7 .5 ]
+Texture "apple-leaves" "color" "imagemap" "string filename" ["textures/ecosys/apple.exr"]
+#Texture "apple-bark" "color" "constant" "color value" [.4 .2 .2 ]
+Texture "apple-bark" "color" "imagemap" "string filename" ["textures/ecosys/bark.exr"]
+
+Texture "bush-color-1" "color" "constant" "color value" [.5 .9 .5 ]
+Texture "bush-color-2" "color" "constant" "color value" [.3 .9 .3 ]
+Texture "bush-color-ks" "color" "constant" "color value" [.002 .002 .002]
+
+Texture "dandelion-white" "color" "constant" "color value" [.9 .9 .9]
+Texture "dandelion-stem-1" "color" "constant" "color value" [.5 .6 .4 ]
+Texture "dandelion-stem-2" "color" "constant" "color value" [.4 .5 .44 ]
+Texture "grass-1" "color" "constant" "color value" [.4 .9 .6 ]
+Texture "grass-specular" "color" "constant" "color value" [.1 .1 .1]
+Texture "grass-2" "color" "constant" "color value" [.4 .65 .4 ]
+Texture "grass-3" "color" "constant" "color value" [.5 .8 .5 ]
+
+Texture "urtica-1" "color" "constant" "color value" [.25 .14 .025 ]
+#Texture "urtica-2" "color" "constant" "color value" [.12 .3 .12 ]
+#Texture "urtica-3" "color" "constant" "color value" [.10 .3 .10 ]
+#Texture "urtica-2" "color" "constant" "color value" [.08 .2 .08 ]
+Texture "urtica-2" "color" "imagemap" "string filename" ["textures/ecosys/urticaleaf.exr"]
+#Texture "urtica-2" "color" "scale" "texture tex1" "urtica-2-tex" "color tex2" [ .3 .3 .3]
+Texture "urtica-2-alpha" "color" "imagemap" "string filename" ["textures/ecosys/urticaleaf_alpha.exr"]
+
+Texture "urtica-3" "color" "constant" "color value" [.3 .6 .4 ]
+Texture "urtica-3-alpha" "color" "imagemap" "string filename" ["textures/ecosys/urticaseed_alpha.exr"]
+
+Texture "yellowflower-1" "color" "constant" "color value" [.8 .8 .3 ]
+Texture "yellowflower-2" "color" "constant" "color value" [.4 .9 .2 ]

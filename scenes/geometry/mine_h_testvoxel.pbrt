@@ -1,0 +1,5 @@
+Volume "volumegrid" "integer nx" 1 "integer ny" 1 "integer nz" 1
+	"point p0" [ -1.0 -1.0 -1.0 ] "point p1" [ 550.0 550.0 550.0 ] 
+	"float density" [
+0.001 
+]

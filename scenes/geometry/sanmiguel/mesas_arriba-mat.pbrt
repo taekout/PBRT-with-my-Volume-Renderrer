@@ -1,0 +1,129 @@
+
+### Object: Mesa Patas ### 
+Texture "Map #480b" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/WOOD08.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #481b" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/WOOD08_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #481b_bump" "float" "scale" "texture tex1" "Map #481b" "float tex2" [0.002]  
+MakeNamedMaterial "Madera Silla" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.243137 0.243137 0.243137]
+	 "float roughness"  [0.1] 
+	 "texture Kd" ["Map #480b"]
+	 "texture bumpmap" ["Map #481b_bump"]
+
+### End Object: Mesa Patas ### 
+
+### Object: Silla Respaldo Sujetador01 ### 
+Texture "Map #483" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Finishes.Flooring.Carpet.Loop.5.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #484" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Finishes.Flooring.Carpet.Loop.5.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #484_bump" "float" "scale" "texture tex1" "Map #484" "float tex2" [0.001]  
+MakeNamedMaterial "Silla Tela" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Map #483"]
+	 "texture bumpmap" ["Map #484_bump"]
+
+### End Object: Silla Respaldo Sujetador01 ### 
+
+### Object: Tabla Mesa01 ### 
+Texture "Map #476" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BWK_1024.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Madera Mesa Arriba_Spec" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/bwk_1024_Spec2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Madera Mesa Arriba_Spec_KsMap" "color" "scale" "texture tex1" ["Madera Mesa Arriba_Spec"] "color tex2" [1.0 1.0 1.0]  
+Texture "Madera Mesa Arriba Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/bwk_1024_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Madera Mesa Arriba Bump_bump" "float" "scale" "texture tex1" "Madera Mesa Arriba Bump" "float tex2" [0.001]  
+Texture "Madera Mesa Arriba_Rough" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/bwk_1024_Spec.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Madera Mesa Arriba_Rough_RoughMap" "float" "scale" "texture tex1" "Madera Mesa Arriba_Rough" "float tex2" [0.0]  
+MakeNamedMaterial "Madera Mesa Arriba" 
+	 "string type" ["plastic"] 
+	 "texture Kd" ["Map #476"]
+	 "texture Ks" ["Madera Mesa Arriba_Spec_KsMap"]
+	 "texture roughness" "Madera Mesa Arriba_Rough_RoughMap"
+	 "texture bumpmap" ["Madera Mesa Arriba Bump_bump"]
+
+### End Object: Tabla Mesa01 ### 

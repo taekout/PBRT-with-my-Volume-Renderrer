@@ -1,0 +1,25 @@
+AttributeBegin
+
+Include "geometry/ecosys/Apple1.pbrt"
+
+AttributeBegin 
+Translate 41.935490 6.451613 0.594861 
+Rotate 0 0 1 10
+ObjectInstance "APPLE1" 
+AttributeEnd
+AttributeBegin
+Translate 35.483875 14.516130 1.587932 
+Rotate 0 0 1 -60
+ObjectInstance "APPLE1" 
+AttributeEnd
+AttributeBegin
+Translate 43.548393 24.193552 0.594861 
+Rotate 0 0 1 140
+ObjectInstance "APPLE1" 
+AttributeEnd
+AttributeBegin
+Translate 29.032263 37.096779 1.508486 
+ObjectInstance "APPLE1" 
+AttributeEnd
+
+AttributeEnd

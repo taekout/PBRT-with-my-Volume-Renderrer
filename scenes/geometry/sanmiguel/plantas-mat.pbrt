@@ -1,0 +1,3757 @@
+
+### Object: fragrans_Leaf ### 
+Texture "fragrans_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/dracaena_fragrans_leaf.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "fragrans_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/dracaena_fragrans_leaf_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "fragrans_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["fragrans_Leaf1_DiffuseMap"]
+
+### End Object: fragrans_Leaf ### 
+
+### Object: Cercis_siliquastrum_Judas_Trunk ### 
+Texture "Cercis_trunk_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01brk.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cercis_trunk" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cercis_trunk_DiffuseMap"]
+
+### End Object: Cercis_siliquastrum_Judas_Trunk ### 
+
+### Object: Cercis_siliquastrum_Judas_Leaves1 ### 
+Texture "Cercis_leaves01_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01lef.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cercis_leaves01_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01lef_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cercis_leaves01" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cercis_leaves01_DiffuseMap"]
+
+### End Object: Cercis_siliquastrum_Judas_Leaves1 ### 
+
+### Object: Cercis_siliquastrum_Judas_Leaves2 ### 
+Texture "Cercis_CE1c01_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01flo1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cercis_CE1c01_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01flo1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cercis_CE1c01" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cercis_CE1c01_DiffuseMap"]
+
+### End Object: Cercis_siliquastrum_Judas_Leaves2 ### 
+
+### Object: Cercis_siliquastrum_Judas_Leaves3 ### 
+Texture "Cercis_CE01_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01flo2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cercis_CE01_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS01flo2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cercis_CE01" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cercis_CE01_DiffuseMap"]
+
+### End Object: Cercis_siliquastrum_Judas_Leaves3 ### 
+
+### Object: aglaonemaLeaf ### 
+Texture "Map #0" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/aglaonema_leaf.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #3" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/aglaonema_leaf_alpha.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "aglaonema_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Map #0"]
+
+### End Object: aglaonemaLeaf ### 
+
+### Object: aglaonemaTree ### 
+Texture "aglaonema_Tree_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/aglaonema_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "aglaonema_Tree" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["aglaonema_Tree_DiffuseMap"]
+
+### End Object: aglaonemaTree ### 
+
+### Object: Azalea 1_blattg1_co04 ### 
+Texture "Map #32" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.7]
+	 "float udelta" [0.0]
+	 "float vdelta" [-0.15]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #33" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.7]
+	 "float udelta" [0.0]
+	 "float vdelta" [-1.5]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 1_blattg1" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.262745 0.262745 0.262745]
+	 "float roughness"  [0.001] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Map #32"]
+
+### End Object: Azalea 1_blattg1_co04 ### 
+
+### Object: Azalea 1_Blutenbl38 ### 
+Texture "Map #36" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.8]
+	 "float udelta" [0.0]
+	 "float vdelta" [-0.12]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #37" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/fl16pet1_alpha.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.8]
+	 "float udelta" [0.0]
+	 "float vdelta" [-0.12]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 1_Blutenb" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Map #36"]
+
+### End Object: Azalea 1_Blutenbl38 ### 
+
+### Object: Azalea 1_kelchblatt04 ### 
+Texture "Azalea 1_leafcal_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16lef3.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Azalea 1_leafcal_Mask" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16lef3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 1_leafcal" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Azalea 1_leafcal_Diffuse"]
+
+### End Object: Azalea 1_kelchblatt04 ### 
+
+### Object: Azalea 1_Stengel04 ### 
+Texture "Azalea 1_Stengel_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 1_Stengel" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Azalea 1_Stengel_DiffuseMap"]
+
+### End Object: Azalea 1_Stengel04 ### 
+
+### Object: Azalea 2_blattg02 ### 
+Texture "Azalea 2_blattg1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Azalea 2_blattg1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 2_blattg1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Azalea 2_blattg1_DiffuseMap"]
+
+### End Object: Azalea 2_blattg02 ### 
+
+### Object: Azalea 2_Blutenbl07 ### 
+Texture "Azalea 2_Blutenb_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Azalea 2_Blutenb_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 2_Blutenb" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Azalea 2_Blutenb_DiffuseMap"]
+
+### End Object: Azalea 2_Blutenbl07 ### 
+
+### Object: Azalea 2_kelchblatt ### 
+Texture "Azalea 2_leafcal_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16lef3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Azalea 2_leafcal_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL16lef3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Azalea 2_leafcal" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Azalea 2_leafcal_DiffuseMap"]
+
+### End Object: Azalea 2_kelchblatt ### 
+
+### Object: brevipedunculata_Leaf04 ### 
+Texture "brevipedunculata_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/TR14lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "brevipedunculata_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/TR14lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "brevipedunculata_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["brevipedunculata_Leaf1_DiffuseMap"]
+
+### End Object: brevipedunculata_Leaf04 ### 
+
+### Object: brevipedunculata_stem ### 
+Texture "brevipedunculata_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/ampelopsis_brevipedunculata_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "brevipedunculata_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["brevipedunculata_stem_DiffuseMap"]
+
+### End Object: brevipedunculata_stem ### 
+
+### Object: Chusan_Palm 1_Branch ### 
+Texture "Chusan_Palm 1_Speer_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19stm1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Chusan_Palm 1_Speer" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Chusan_Palm 1_Speer_DiffuseMap"]
+
+### End Object: Chusan_Palm 1_Branch ### 
+
+### Object: Chusan_Palm 1_Base ### 
+Texture "Chusan_Palm 1_Base_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Chusan_Palm 1_Base" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Chusan_Palm 1_Base_DiffuseMap"]
+
+### End Object: Chusan_Palm 1_Base ### 
+
+### Object: Chusan_Palm 1_Leaf ### 
+Texture "Chusan_Palm 1_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Chusan_Palm 1_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Chusan_Palm 1_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Chusan_Palm 1_Leaf_DiffuseMap"]
+
+### End Object: Chusan_Palm 1_Leaf ### 
+
+### Object: Chusan_Palm 2_Leaf ### 
+Texture "Chusan_Palm 2_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19lef3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Chusan_Palm 2_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19lef3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Chusan_Palm 2_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Chusan_Palm 2_Leaf_DiffuseMap"]
+
+### End Object: Chusan_Palm 2_Leaf ### 
+
+### Object: Chusan_Palm3_Leaf2 ### 
+Texture "Chusan_Palm3_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Chusan_Palm3_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP19lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Chusan_Palm3_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Chusan_Palm3_Leaf_DiffuseMap"]
+
+### End Object: Chusan_Palm3_Leaf2 ### 
+
+### Object: Cinquefoil 1_Blatt1 ### 
+Texture "Cinquefoil 1_Blatt1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cinquefoil 1_Blatt1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 1_Blatt1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 1_Blatt1_DiffuseMap"]
+
+### End Object: Cinquefoil 1_Blatt1 ### 
+
+### Object: Cinquefoil 1_kelchgrund ### 
+Texture "Cinquefoil 1_kelchgr_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15cnt2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 1_kelchgr" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 1_kelchgr_DiffuseMap"]
+
+### End Object: Cinquefoil 1_kelchgrund ### 
+
+### Object: Cinquefoil 1_Leaf ### 
+Texture "Cinquefoil 1_S1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 1_S1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 1_S1_DiffuseMap"]
+
+### End Object: Cinquefoil 1_Leaf ### 
+
+### Object: Cinquefoil 1_Leafg1_c01 ### 
+Texture "Cinquefoil 1_Leafg1__DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cinquefoil 1_Leafg1__Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 1_Leafg1_" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 1_Leafg1__DiffuseMap"]
+
+### End Object: Cinquefoil 1_Leafg1_c01 ### 
+
+### Object: Cinquefoil 1_Leafg1_c02 ### 
+Texture "Cinquefoil 1_Leafg1c_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cinquefoil 1_Leafg1c_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 1_Leafg1c" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 1_Leafg1c_DiffuseMap"]
+
+### End Object: Cinquefoil 1_Leafg1_c02 ### 
+
+### Object: Cinquefoil 1_Revo ### 
+Texture "Cinquefoil 1_Revo_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15cnt1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 1_Revo" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 1_Revo_DiffuseMap"]
+
+### End Object: Cinquefoil 1_Revo ### 
+
+### Object: Cinquefoil 2_Blatt1co02 ### 
+Texture "Cinquefoil 2_Blatt1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cinquefoil 2_Blatt1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 2_Blatt1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 2_Blatt1_DiffuseMap"]
+
+### End Object: Cinquefoil 2_Blatt1co02 ### 
+
+### Object: Cinquefoil 2_Leafg1copy ### 
+Texture "Cinquefoil 2_Leafg1c_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cinquefoil 2_Leafg1c_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 2_Leafg1c" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 2_Leafg1c_DiffuseMap"]
+
+### End Object: Cinquefoil 2_Leafg1copy ### 
+
+### Object: Cinquefoil 2_Leafg1_c02 ### 
+Texture "Cinquefoil 2_Leafg1__DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Cinquefoil 2_Leafg1__Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL15pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Cinquefoil 2_Leafg1_" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Cinquefoil 2_Leafg1__DiffuseMap"]
+
+### End Object: Cinquefoil 2_Leafg1_c02 ### 
+
+### Object: Dracaena 2_Leaf6 ### 
+Texture "Dracaena 2_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP07lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dracaena 2_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP07lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dracaena 2_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dracaena 2_Leaf_DiffuseMap"]
+
+### End Object: Dracaena 2_Leaf6 ### 
+
+### Object: Dracaena 2_Segmenttop ### 
+Texture "Dracaena 2_Segme01_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP07stm1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dracaena 2_Segme01" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dracaena 2_Segme01_DiffuseMap"]
+
+### End Object: Dracaena 2_Segmenttop ### 
+
+### Object: Dracaena 2_Leaf3 ### 
+Texture "Dracaena 2_Leaf2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP07lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dracaena 2_Leaf2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP07lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dracaena 2_Leaf2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dracaena 2_Leaf2_DiffuseMap"]
+
+### End Object: Dracaena 2_Leaf3 ### 
+
+### Object: Dracaena 2_Top ### 
+Texture "Dracaena 2_Top_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP07stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dracaena 2_Top" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dracaena 2_Top_DiffuseMap"]
+
+### End Object: Dracaena 2_Top ### 
+
+### Object: Dutch_Iris_fl1 ### 
+Texture "Dutch_Iris_fl1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl1_DiffuseMap"]
+
+### End Object: Dutch_Iris_fl1 ### 
+
+### Object: Dutch_Iris_fl1inner ### 
+Texture "Dutch_Iris_fl1inne_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl1inne_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl1inne" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl1inne_DiffuseMap"]
+
+### End Object: Dutch_Iris_fl1inner ### 
+
+### Object: Dutch_Iris_fl1stem ### 
+Texture "Dutch_Iris_fl2stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11sta.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl2stem_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11sta_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl2stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl2stem_DiffuseMap"]
+
+### End Object: Dutch_Iris_fl1stem ### 
+
+### Object: Dutch_Iris_fl2 ### 
+Texture "Dutch_Iris_fl2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl2_DiffuseMap"]
+
+### End Object: Dutch_Iris_fl2 ### 
+
+### Object: Dutch_Iris_fl2inner ### 
+Texture "Dutch_Iris_fl2inne_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet4.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl2inne_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet4_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl2inne" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl2inne_DiffuseMap"]
+
+### End Object: Dutch_Iris_fl2inner ### 
+
+### Object: Dutch_Iris_Leaf ### 
+Texture "Dutch_Iris_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_Leaf_DiffuseMap"]
+
+### End Object: Dutch_Iris_Leaf ### 
+
+### Object: Dutch_Iris_Leaf1 ### 
+Texture "Dutch_Iris_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_Leaf1_DiffuseMap"]
+
+### End Object: Dutch_Iris_Leaf1 ### 
+
+### Object: Dutch_Iris_Stem ### 
+Texture "Dutch_Iris_Stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_Stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_Stem_DiffuseMap"]
+
+### End Object: Dutch_Iris_Stem ### 
+
+### Object: Dutch_Iris_2fl1 ### 
+Texture "Dutch_Iris_flB_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_flB_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_flB" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_flB_DiffuseMap"]
+
+### End Object: Dutch_Iris_2fl1 ### 
+
+### Object: Dutch_Iris_2fl1inner ### 
+Texture "Dutch_Iris_fl1inne B_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl1inne B_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl1inne B" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl1inne B_DiffuseMap"]
+
+### End Object: Dutch_Iris_2fl1inner ### 
+
+### Object: Dutch_Iris_2fl2 ### 
+Texture "Dutch_Iris_fl2 B_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl2 B_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl2 B" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl2 B_DiffuseMap"]
+
+### End Object: Dutch_Iris_2fl2 ### 
+
+### Object: Dutch_Iris_2fl2inner ### 
+Texture "Dutch_Iris_fl2inne B_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet4.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_fl2inne B_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11pet4_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_fl2inne B" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_fl2inne B_DiffuseMap"]
+
+### End Object: Dutch_Iris_2fl2inner ### 
+
+### Object: Dutch_Iris_2Leaf ### 
+Texture "Dutch_Iris_Leaf B_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Dutch_Iris_Leaf B_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL11lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Dutch_Iris_Leaf B" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Dutch_Iris_Leaf B_DiffuseMap"]
+
+### End Object: Dutch_Iris_2Leaf ### 
+
+### Object: Fern 1_Fan01 ### 
+Texture "Fern 1_Fan_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP17lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Fern 1_Fan_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP17lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Fern 1_Fan" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Fern 1_Fan_DiffuseMap"]
+
+### End Object: Fern 1_Fan01 ### 
+
+### Object: Fern 3_Leaf01 ### 
+Texture "Fern 3_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP17lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Fern 3_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP17lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Fern 3_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Fern 3_Leaf_DiffuseMap"]
+
+### End Object: Fern 3_Leaf01 ### 
+
+### Object: Fern 3_Stem ### 
+Texture "Fern 3_Stem_DiffuseMap1" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP17stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Fern 3_Stem1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Fern 3_Stem_DiffuseMap1"]
+
+### End Object: Fern 3_Stem ### 
+
+### Object: Ficus 1_Branch1a ### 
+Texture "Ficus 1_Stem1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP11stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Ficus 1_Stem1_BumpMap" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP11stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Ficus 1_Stem1_BumpMap_bump" "float" "scale" "texture tex1" "Ficus 1_Stem1_BumpMap" "float tex2" [40.0]  
+MakeNamedMaterial "Ficus 1_Stem1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Ficus 1_Stem1_DiffuseMap"]
+	 "texture bumpmap" ["Ficus 1_Stem1_BumpMap_bump"]
+
+### End Object: Ficus 1_Branch1a ### 
+
+### Object: Ficus 1_Leaf2 ### 
+Texture "Map #25" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP11lef2.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #27" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/hp13lef1_bump.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #27_bump" "float" "scale" "texture tex1" "Map #27" "float tex2" [0.02]  
+Texture "Map #26" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP11lef2_Mask.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Ficus 1_Leaf1" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.117647 0.117647 0.117647]
+	 "float roughness"  [0.01] 
+	 "texture Kd" ["Map #25"]
+	 "texture bumpmap" ["Map #27_bump"]
+
+### End Object: Ficus 1_Leaf2 ### 
+
+### Object: Geranium 1blbl1 ### 
+Texture "Geranium 1_blbl1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Geranium 1_blbl1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_blbl1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_blbl1_DiffuseMap"]
+
+### End Object: Geranium 1blbl1 ### 
+
+### Object: Geranium 1blbl2 ### 
+Texture "Geranium 1_blbl2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Geranium 1_blbl2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_blbl2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_blbl2_DiffuseMap"]
+
+### End Object: Geranium 1blbl2 ### 
+
+### Object: Geranium 1blbl3 ### 
+Texture "Geranium 1_blbl3_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13pet3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Geranium 1_blbl3_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13pet3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_blbl3" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_blbl3_DiffuseMap"]
+
+### End Object: Geranium 1blbl3 ### 
+
+### Object: Geranium 1Branch11 ### 
+Texture "Geranium 1_Stem1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_Stem1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_Stem1_DiffuseMap"]
+
+### End Object: Geranium 1Branch11 ### 
+
+### Object: Geranium 1Flowerclos ### 
+Texture "Geranium 1_Flowerc_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13lef5.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Geranium 1_Flowerc_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13lef5_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_Flowerc" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_Flowerc_DiffuseMap"]
+
+### End Object: Geranium 1Flowerclos ### 
+
+### Object: Geranium 1Kelchbla01 ### 
+Texture "Geranium 1_Kelchbl_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13lef4.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Geranium 1_Kelchbl_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13lef4_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_Kelchbl" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_Kelchbl_DiffuseMap"]
+
+### End Object: Geranium 1Kelchbla01 ### 
+
+### Object: Geranium 1Leaf ### 
+Texture "Geranium 1_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Geranium 1_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL13lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Geranium 1_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Geranium 1_Leaf_DiffuseMap"]
+
+### End Object: Geranium 1Leaf ### 
+
+### Object: hybrids_level08 ### 
+Texture "hybrids_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/elaeagnus_umbellate_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "hybrids_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["hybrids_stem_DiffuseMap"]
+
+### End Object: hybrids_level08 ### 
+
+### Object: hybrids_blossom07 ### 
+Texture "hybrids_blossom_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/impatiens_newguinea_hybrids_petal.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "hybrids_blossom_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/impatiens_newguinea_hybrids_petal_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "hybrids_blossom" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["hybrids_blossom_DiffuseMap"]
+
+### End Object: hybrids_blossom07 ### 
+
+### Object: hybrids_Leaf07 ### 
+Texture "hybrids_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/citrus_limon_leaf.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "hybrids_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/citrus_limon_leaf_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "hybrids_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["hybrids_Leaf_DiffuseMap"]
+
+### End Object: hybrids_Leaf07 ### 
+
+### Object: Ivy 1_Tree ### 
+Texture "Ivy 1_Tree_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Ivy 1_Tree" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Ivy 1_Tree_DiffuseMap"]
+
+### End Object: Ivy 1_Tree ### 
+
+### Object: Ivy 1_Leaf06 ### 
+Texture "Map #39" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #41" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/hp13lef1_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #41_bump" "float" "scale" "texture tex1" "Map #41" "float tex2" [0.002]  
+Texture "Map #40" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Ivy 1_Leaf" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.176471 0.176471 0.176471]
+	 "float roughness"  [0.002] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Map #39"]
+	 "texture bumpmap" ["Map #41_bump"]
+
+### End Object: Ivy 1_Leaf06 ### 
+
+### Object: Ivy 2_Leaf2 ### 
+Texture "Ivy 2_Leaf2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Ivy 2_Leaf2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Ivy 2_Leaf2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Ivy 2_Leaf2_DiffuseMap"]
+
+### End Object: Ivy 2_Leaf2 ### 
+
+### Object: Ivy 2_Tree ### 
+Texture "Ivy 2_Tree_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Ivy 2_Tree" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Ivy 2_Tree_DiffuseMap"]
+
+### End Object: Ivy 2_Tree ### 
+
+### Object: Ivy 3_Leaf ### 
+Texture "Ivy 3_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13lef3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Ivy 3_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP13lef3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Ivy 3_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Ivy 3_Leaf_DiffuseMap"]
+
+### End Object: Ivy 3_Leaf ### 
+
+### Object: Lagerstroemia_leaves ### 
+Texture "Lagerstroemia_leaves_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS04lef.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Lagerstroemia_leaves_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS04lef_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lagerstroemia_leaves" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lagerstroemia_leaves_DiffuseMap"]
+
+### End Object: Lagerstroemia_leaves ### 
+
+### Object: Lagerstroemia_petals ### 
+Texture "Lagerstroemia_petals_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS04flo.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Lagerstroemia_petals_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS04flo_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lagerstroemia_petals" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lagerstroemia_petals_DiffuseMap"]
+
+### End Object: Lagerstroemia_petals ### 
+
+### Object: Lagerstroemia_trunks ### 
+Texture "Lagerstroemia_base_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BS04brk.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lagerstroemia_base" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lagerstroemia_base_DiffuseMap"]
+
+### End Object: Lagerstroemia_trunks ### 
+
+### Object: Lilium_Blatt1 ### 
+Texture "Lilium_head_Blatt2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Lilium_head_Blatt2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_head_Blatt2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_head_Blatt2_DiffuseMap"]
+
+### End Object: Lilium_Blatt1 ### 
+
+### Object: Lilium_BluBlatt02 ### 
+Texture "Lilium_head_BluBlatt1__DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Lilium_head_BluBlatt1__Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_head_BluBlatt1_" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_head_BluBlatt1__DiffuseMap"]
+
+### End Object: Lilium_BluBlatt02 ### 
+
+### Object: Lilium_Mittelst01 ### 
+Texture "Lilium_head_Stengel1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12pis1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_head_Stengel1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_head_Stengel1_DiffuseMap"]
+
+### End Object: Lilium_Mittelst01 ### 
+
+### Object: Lilium_Kopf_HP_02 ### 
+Texture "Lilium_head_Kopf_HP_co_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12sta1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_head_Kopf_HP_co" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_head_Kopf_HP_co_DiffuseMap"]
+
+### End Object: Lilium_Kopf_HP_02 ### 
+
+### Object: Lilium_Stil2a_cop ### 
+Texture "Lilium_head_Size_Mitte_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_head_Size_Mitte" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_head_Size_Mitte_DiffuseMap"]
+
+### End Object: Lilium_Stil2a_cop ### 
+
+### Object: Lilium_Stengel1 ### 
+Texture "Lilium_Stengel_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12pis1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_Stengel" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_Stengel_DiffuseMap"]
+
+### End Object: Lilium_Stengel1 ### 
+
+### Object: Lilium_BluBlatt1 ### 
+Texture "Lilium_BluBlat_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Lilium_BluBlat_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_BluBlat" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_BluBlat_DiffuseMap"]
+
+### End Object: Lilium_BluBlatt1 ### 
+
+### Object: Lilium_Stil2a ### 
+Texture "Lilium_Stil_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL12stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Lilium_Stil" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Lilium_Stil_DiffuseMap"]
+
+### End Object: Lilium_Stil2a ### 
+
+### Object: Mona_Lisa 1_Branch1 ### 
+Texture "Mona_Lisa 1_Branch1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01stm1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Branch1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Branch1_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Branch1 ### 
+
+### Object: Mona_Lisa 1_Branch3 ### 
+Texture "Mona_Lisa 1_Branch3_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Branch3" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Branch3_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Branch3 ### 
+
+### Object: Mona_Lisa 1_Flowerba01 ### 
+Texture "Mona_Lisa 1_Flowerb_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01stm1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Flowerb" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Flowerb_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Flowerba01 ### 
+
+### Object: Mona_Lisa 1_petal41 ### 
+Texture "Map #15" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01pet1.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #16" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01pet1_Mask.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_petal11" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Map #15"]
+
+### End Object: Mona_Lisa 1_petal41 ### 
+
+### Object: Mona_Lisa 1_Flowerst01 ### 
+Texture "Mona_Lisa 1_Flowers_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01stm1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Flowers" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Flowers_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Flowerst01 ### 
+
+### Object: Mona_Lisa 1_Horn1 ### 
+Texture "Mona_Lisa 1_Horn1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Horn1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Horn1_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Horn1 ### 
+
+### Object: Mona_Lisa 1_petal22 ### 
+Texture "Map #13" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01pet1.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #14" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01pet1_Mask.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_petal12" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Map #13"]
+
+### End Object: Mona_Lisa 1_petal22 ### 
+
+### Object: Mona_Lisa 1_Leaf3 ### 
+Texture "Mona_Lisa 1_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Mona_Lisa 1_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Leaf1_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Leaf3 ### 
+
+### Object: Mona_Lisa 1_Leaf2 ### 
+Texture "Mona_Lisa 1_Leaf2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Mona_Lisa 1_Leaf2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_Leaf2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_Leaf2_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_Leaf2 ### 
+
+### Object: Mona_Lisa 1_flowercent ### 
+Texture "Mona_Lisa 1_flowerc_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP01pet3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 1_flowerc" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Mona_Lisa 1_flowerc_DiffuseMap"]
+
+### End Object: Mona_Lisa 1_flowercent ### 
+
+### Object: Mona_Lisa 3_Leaf33 ### 
+Texture "Map #5" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/citrus_limon_leaf.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #21" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/citrus_limon_leaf_Bump.tga"]
+	 "float gamma" [1.2]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #21_bump" "float" "scale" "texture tex1" "Map #21" "float tex2" [0.01]  
+Texture "Map #6" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/citrus_limon_leaf_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mona_Lisa 2_Leaf1" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.117647 0.117647 0.117647]
+	 "float roughness"  [0.01] 
+	 "color reflect" [0.5 0.5 0.5]
+	 "color transmit" [0.5 0.5 0.5]
+	 "texture Kd" ["Map #5"]
+	 "texture bumpmap" ["Map #21_bump"]
+
+### End Object: Mona_Lisa 3_Leaf33 ### 
+
+### Object: Oxeye_Daisy_blattg1 ### 
+Texture "Oxeye_Daisy_blattg1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Oxeye_Daisy_blattg1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Oxeye_Daisy_blattg1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Oxeye_Daisy_blattg1_DiffuseMap"]
+
+### End Object: Oxeye_Daisy_blattg1 ### 
+
+### Object: Oxeye_Daisy_blattk1aco ### 
+Texture "Oxeye_Daisy_blattk1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Oxeye_Daisy_blattk1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Oxeye_Daisy_blattk1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Oxeye_Daisy_blattk1_DiffuseMap"]
+
+### End Object: Oxeye_Daisy_blattk1aco ### 
+
+### Object: Oxeye_Daisy_Blutenbl01 ### 
+Texture "Oxeye_Daisy_Blutenb_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Oxeye_Daisy_Blutenb_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Oxeye_Daisy_Blutenb" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Oxeye_Daisy_Blutenb_DiffuseMap"]
+
+### End Object: Oxeye_Daisy_Blutenbl01 ### 
+
+### Object: Oxeye_Daisy_Blutenkelc ### 
+Texture "Oxeye_Daisy_Blutenk_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04cnt2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Oxeye_Daisy_Blutenk" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Oxeye_Daisy_Blutenk_DiffuseMap"]
+
+### End Object: Oxeye_Daisy_Blutenkelc ### 
+
+### Object: Oxeye_Daisy_Simple ### 
+Texture "Oxeye_Daisy_Simple_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04cnt1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Oxeye_Daisy_Simple_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04cnt1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Oxeye_Daisy_Simple" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Oxeye_Daisy_Simple_DiffuseMap"]
+
+### End Object: Oxeye_Daisy_Simple ### 
+
+### Object: Oxeye_Daisy_Stengel ### 
+Texture "Default_Stengel_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL04stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Default_Stengel" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Default_Stengel_DiffuseMap"]
+
+### End Object: Oxeye_Daisy_Stengel ### 
+
+### Object: paniceum_Leaf ### 
+Texture "paniceum_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/TR02lef5.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "paniceum_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/TR02lef5_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "paniceum_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["paniceum_Leaf_DiffuseMap"]
+
+### End Object: paniceum_Leaf ### 
+
+### Object: paniceum_stem ### 
+Texture "paniceum_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/quercus_rubra_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "paniceum_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["paniceum_stem_DiffuseMap"]
+
+### End Object: paniceum_stem ### 
+
+### Object: Pansy 1_blblback01 ### 
+Texture "Pansy 1_blblbac_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe13.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_blblbac_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe13_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_blblbac" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_blblbac_DiffuseMap"]
+
+### End Object: Pansy 1_blblback01 ### 
+
+### Object: Pansy 1_blbll_copy ### 
+Texture "Pansy 1_blbll_c_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe16.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_blbll_c_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe16_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_blbll_c" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_blbll_c_DiffuseMap"]
+
+### End Object: Pansy 1_blbll_copy ### 
+
+### Object: Pansy 1_blblr ### 
+Texture "Pansy 1_blblr_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe14.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_blblr_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe14_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_blblr" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_blblr_DiffuseMap"]
+
+### End Object: Pansy 1_blblr ### 
+
+### Object: Pansy 1_blblu_copy ### 
+Texture "Pansy 1_blblu_c_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe15.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_blblu_c_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19pe15_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_blblu_c" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_blblu_c_DiffuseMap"]
+
+### End Object: Pansy 1_blblu_copy ### 
+
+### Object: Pansy 1_Kelchblatt ### 
+Texture "Pansy 1_Leafsma_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19lef4.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_Leafsma_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19lef4_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_Leafsma" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_Leafsma_DiffuseMap"]
+
+### End Object: Pansy 1_Kelchblatt ### 
+
+### Object: Pansy 1_Leaf02 ### 
+Texture "Pansy 1_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_Leaf_DiffuseMap"]
+
+### End Object: Pansy 1_Leaf02 ### 
+
+### Object: Pansy 1_Leaf_copy1 ### 
+Texture "Pansy 1_Leafcop_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19lef3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Pansy 1_Leafcop_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19lef3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_Leafcop" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_Leafcop_DiffuseMap"]
+
+### End Object: Pansy 1_Leaf_copy1 ### 
+
+### Object: Pansy 1_Revo ### 
+Texture "Pansy 1_Stengel_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL19stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Pansy 1_Stengel" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Pansy 1_Stengel_DiffuseMap"]
+
+### End Object: Pansy 1_Revo ### 
+
+### Object: pendula_Leaf ### 
+Texture "pendula_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP04lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "pendula_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/HP04lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "pendula_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["pendula_Leaf1_DiffuseMap"]
+
+### End Object: pendula_Leaf ### 
+
+### Object: pendula_stem ### 
+Texture "pendula_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/zebrina_pendula_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "pendula_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["pendula_stem_DiffuseMap"]
+
+### End Object: pendula_stem ### 
+
+### Object: phyllostachya_Leaf ### 
+Texture "phyllostachya_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BL05lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "phyllostachya_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/BL05lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "phyllostachya_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["phyllostachya_Leaf1_DiffuseMap"]
+
+### End Object: phyllostachya_Leaf ### 
+
+### Object: phyllostachya_stem ### 
+Texture "phyllostachya_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/hypoestes_phyllostachya_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "phyllostachya_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["phyllostachya_stem_DiffuseMap"]
+
+### End Object: phyllostachya_stem ### 
+
+### Object: Poinsettia 1_blossom ### 
+Texture "Poinsettia 1_blossom_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29cnt1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_blossom" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_blossom_DiffuseMap"]
+
+### End Object: Poinsettia 1_blossom ### 
+
+### Object: Poinsettia 1_blossomthi ### 
+Texture "Poinsettia 1_bloss01_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29cnt2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_bloss01" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_bloss01_DiffuseMap"]
+
+### End Object: Poinsettia 1_blossomthi ### 
+
+### Object: Poinsettia 1_Leaf ### 
+Texture "Poinsettia 1_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29lef.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Poinsettia 1_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29lef_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_Leaf_DiffuseMap"]
+
+### End Object: Poinsettia 1_Leaf ### 
+
+### Object: Poinsettia 1_leaftrunk ### 
+Texture "Poinsettia 1_Tree2_c_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29twg.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_Tree2_c" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_Tree2_c_DiffuseMap"]
+
+### End Object: Poinsettia 1_leaftrunk ### 
+
+### Object: Poinsettia 1_redleaf ### 
+Texture "Poinsettia 1_redleaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Poinsettia 1_redleaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_redleaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_redleaf_DiffuseMap"]
+
+### End Object: Poinsettia 1_redleaf ### 
+
+### Object: Poinsettia 1_smallred ### 
+Texture "Poinsettia 1_smallre_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Poinsettia 1_smallre_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_smallre" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_smallre_DiffuseMap"]
+
+### End Object: Poinsettia 1_smallred ### 
+
+### Object: Poinsettia 1_Tree ### 
+Texture "Poinsettia 1_Tree_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29stm1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 1_Tree" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 1_Tree_DiffuseMap"]
+
+### End Object: Poinsettia 1_Tree ### 
+
+### Object: Poinsettia 2_leaftrunk ### 
+Texture "Poinsettia 2_leaftru_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29twg.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 2_leaftru" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 2_leaftru_DiffuseMap"]
+
+### End Object: Poinsettia 2_leaftrunk ### 
+
+### Object: Poinsettia 2_wchrypetal ### 
+Texture "Default_wchrype_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29stm2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Default_wchrype" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Default_wchrype_DiffuseMap"]
+
+### End Object: Poinsettia 2_wchrypetal ### 
+
+### Object: Poinsettia 2_wchrleaf ### 
+Texture "Poinsettia 2_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29lef.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Poinsettia 2_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29lef_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 2_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 2_Leaf_DiffuseMap"]
+
+### End Object: Poinsettia 2_wchrleaf ### 
+
+### Object: Poinsettia 2_smallredle ### 
+Texture "Poinsettia 2_smallre_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Poinsettia 2_smallre_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL29pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Poinsettia 2_smallre" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Poinsettia 2_smallre_DiffuseMap"]
+
+### End Object: Poinsettia 2_smallredle ### 
+
+### Object: Rose 1_Blatt1_ ### 
+Texture "Rose 1_Blatt1__DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 1_Blatt1__Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 1_Blatt1_" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 1_Blatt1__DiffuseMap"]
+
+### End Object: Rose 1_Blatt1_ ### 
+
+### Object: Rose 1_Blatt2 ### 
+Texture "Rose 1_Blatt2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 1_Blatt2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 1_Blatt2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 1_Blatt2_DiffuseMap"]
+
+### End Object: Rose 1_Blatt2 ### 
+
+### Object: Rose 1_Blutenbl01 ### 
+Texture "Rose 1_Blutenb_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17pet5.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 1_Blutenb_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17pet5_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 1_Blutenb" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 1_Blutenb_DiffuseMap"]
+
+### End Object: Rose 1_Blutenbl01 ### 
+
+### Object: Rose 1_Dorne ### 
+Texture "Rose 1_Stil_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 1_Stil" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 1_Stil_DiffuseMap"]
+
+### End Object: Rose 1_Dorne ### 
+
+### Object: Rose 1_elchblatt ### 
+Texture "Rose 1_Kelchbl_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef6.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 1_Kelchbl_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef6_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 1_Kelchbl" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 1_Kelchbl_DiffuseMap"]
+
+### End Object: Rose 1_elchblatt ### 
+
+### Object: Rose 1_Kelchcopy ### 
+Texture "Rose 1_Kelchco_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17cnt.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 1_Kelchco" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 1_Kelchco_DiffuseMap"]
+
+### End Object: Rose 1_Kelchcopy ### 
+
+### Object: Rose 2_Blatt1_ ### 
+Texture "Rose 2_Blatt1__DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef3.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 2_Blatt1__Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef3_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 2_Blatt1_" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 2_Blatt1__DiffuseMap"]
+
+### End Object: Rose 2_Blatt1_ ### 
+
+### Object: Rose 2_Blutenbl01 ### 
+Texture "Rose 2__Blutenb_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17pet1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 2__Blutenb_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17pet1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 2__Blutenb" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 2__Blutenb_DiffuseMap"]
+
+### End Object: Rose 2_Blutenbl01 ### 
+
+### Object: Rose 2_Dorne ### 
+Texture "Rose 2__Stil_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 2__Stil" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 2__Stil_DiffuseMap"]
+
+### End Object: Rose 2_Dorne ### 
+
+### Object: Rose 2_Kelch_copy ### 
+Texture "Rose 2__Kelch_c_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17cnt.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 2__Kelch_c" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 2__Kelch_c_DiffuseMap"]
+
+### End Object: Rose 2_Kelch_copy ### 
+
+### Object: Rose 2_Kelchblatt ### 
+Texture "Rose 2__Kelchbl_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef5.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 2__Kelchbl_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef5_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 2__Kelchbl" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 2__Kelchbl_DiffuseMap"]
+
+### End Object: Rose 2_Kelchblatt ### 
+
+### Object: Rose 3_Blatt2 ### 
+Texture "Rose 3_Blatt2_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 3_Blatt2_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17lef2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 3_Blatt2" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 3_Blatt2_DiffuseMap"]
+
+### End Object: Rose 3_Blatt2 ### 
+
+### Object: Rose 3_Blutenbl01 ### 
+Texture "Rose 3_Blutenb_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17pet2.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Rose 3_Blutenb_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL17pet2_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Rose 3_Blutenb" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Rose 3_Blutenb_DiffuseMap"]
+
+### End Object: Rose 3_Blutenbl01 ### 
+
+### Object: verschaffeltii_Leaf ### 
+Texture "verschaffeltii_Leaf1_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL03lef1.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "verschaffeltii_Leaf1_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL03lef1_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "verschaffeltii_Leaf1" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["verschaffeltii_Leaf1_DiffuseMap"]
+
+### End Object: verschaffeltii_Leaf ### 
+
+### Object: verschaffeltii_level1 ### 
+Texture "verschaffeltii_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/fittonia_verschaffeltii_bark.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "verschaffeltii_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["verschaffeltii_stem_DiffuseMap"]
+
+### End Object: verschaffeltii_level1 ### 
+
+### Object: zebrina_Leaf ### 
+Texture "zebrina_Leaf_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/EU15lef.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "zebrina_Leaf_Mash" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/EU15lef_Mask.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "zebrina_Leaf" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["zebrina_Leaf_DiffuseMap"]
+
+### End Object: zebrina_Leaf ### 
+
+### Object: zebrina_stem ### 
+Texture "zebrina_stem_DiffuseMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/FL24stm.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "zebrina_stem" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["zebrina_stem_DiffuseMap"]
+
+### End Object: zebrina_stem ### 

@@ -1,0 +1,45 @@
+
+LookAt 3.3 4 -4   1.2 .7 0    0 1 0
+Camera "perspective" "float fov" [28]
+Film "image" "integer xresolution" [800] "integer yresolution" [800]
+    "string filename" "CB.exr"
+
+Sampler "bestcandidate" "integer pixelsamples" [15]
+PixelFilter "triangle"
+
+VolumeIntegrator "single" "float stepsize" [.025]
+
+WorldBegin
+############################################################################
+# Light Source Definitions
+############################################################################
+AttributeBegin
+    #Rotate 10 1 0 0 
+    #Translate 278.000000 278.000000 279.500000
+    LightSource "point" "point from" [0.000000 200.000000 0.000000 ] "color I" [412300 341100 298600 ] 
+	AreaLightSource "area" "color L" [9500 9500 9500 ] "integer nsamples" [4]
+	Shape "disk" "float radius" [.2]
+#	Translate 4 15 -2
+#	Rotate 80 1 0 0
+AttributeEnd
+
+
+Include "geometry/density_render.60.pbrt"
+  "color sigma_a" [1 1 1] "color sigma_s" [4 4 4]
+  "color Le" [4.5 4.5 4.5]
+
+############################################################################
+# Wall Definitions
+############################################################################
+AttributeBegin
+    #Sides 1
+    #Material "plastic"
+    Material "matte" "color Kd" [.5 .5 .5]
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [550.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 560.000000 550.000000 0.000000 560.000000 ] 
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [560.000000 550.000000 0.000000 560.000000 550.000000 560.000000 0.000000 550.000000 560.000000 0.000000 550.000000 0.000000 ] 
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [550.000000 0.000000 560.000000 0.000000 0.000000 560.000000 0.000000 550.000000 560.000000 560.000000 550.000000 560.000000 ] 
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [0.000000 0.000000 560.000000 0.000000 0.000000 0.000000 0.000000 550.000000 0.000000 0.000000 550.000000 560.000000 ] 
+        Material "matte" "color Kd" [.9 .5 .5]
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [550.000000 0.000000 0.000000 550.000000 0.000000 560.000000 560.000000 550.000000 560.000000 560.000000 550.000000 0.000000 ] 
+AttributeEnd
+WorldEnd

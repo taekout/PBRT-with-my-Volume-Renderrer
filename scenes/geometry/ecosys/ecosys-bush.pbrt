@@ -1,0 +1,855 @@
+Include "geometry/ecosys/Bush110.pbrt"
+Include "geometry/ecosys/Bush11.pbrt"
+Include "geometry/ecosys/Bush12.pbrt"
+Include "geometry/ecosys/Bush13.pbrt"
+Include "geometry/ecosys/Bush14.pbrt"
+Include "geometry/ecosys/Bush15.pbrt"
+Include "geometry/ecosys/Bush16.pbrt"
+Include "geometry/ecosys/Bush17.pbrt"
+Include "geometry/ecosys/Bush18.pbrt"
+Include "geometry/ecosys/Bush19.pbrt"
+
+AttributeBegin
+Material "BUSH1"
+
+AttributeBegin
+Translate 31.802147 3.180212 -0.040704 
+Rotate 0 0 1 0.237271 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 3.533569 0.078465 
+Rotate 0 0 1 0.205981 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 4.240283 0.078465 
+Rotate 0 0 1 2.630517 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.922279 4.593639 0.316801 
+Rotate 0 0 1 1.314016 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 5.300353 0.118187 
+Rotate 0 0 1 4.101838 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 6.360424 0.118187 
+Rotate 0 0 1 2.127020 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 6.713780 0.316801 
+Rotate 0 0 1 3.783178 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.568924 6.713780 0.674307 
+Rotate 0 0 1 0.308966 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 7.067137 0.038742 
+Rotate 0 0 1 5.397989 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 7.773851 0.197633 
+Rotate 0 0 1 5.923563 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 8.480565 0.316801 
+Rotate 0 0 1 3.619786 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 8.833922 0.118187 
+Rotate 0 0 1 0.011383 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 9.540637 0.038742 
+Rotate 0 0 1 0.109769 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 9.893994 0.078465 
+Rotate 0 0 1 3.280681 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.215569 9.893994 0.316801 
+Rotate 0 0 1 5.203501 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 10.247352 0.197633 
+Rotate 0 0 1 2.982538 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 10.600709 0.038742 
+Rotate 0 0 1 2.200810 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 10.954066 0.118187 
+Rotate 0 0 1 3.837015 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 11.660781 0.197633 
+Rotate 0 0 1 1.987146 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 12.367496 0.118187 
+Rotate 0 0 1 1.699669 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 12.367496 0.396247 
+Rotate 0 0 1 0.610091 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 12.720853 -0.000981 
+Rotate 0 0 1 2.334661 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 13.074210 0.118187 
+Rotate 0 0 1 3.702067 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 13.780925 0.316801 
+Rotate 0 0 1 1.949230 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 14.487639 -0.040704 
+Rotate 0 0 1 2.102549 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 14.487639 0.118187 
+Rotate 0 0 1 3.062973 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.215569 14.840997 0.952366 
+Rotate 0 0 1 1.583013 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 15.194354 0.118187 
+Rotate 0 0 1 5.868095 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.268574 15.547711 0.078465 
+Rotate 0 0 1 2.712716 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 15.547711 0.118187 
+Rotate 0 0 1 0.249296 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 15.547711 0.833198 
+Rotate 0 0 1 3.990058 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 15.901069 0.435970 
+Rotate 0 0 1 2.949986 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.975288 16.254425 -0.040704 
+Rotate 0 0 1 0.455277 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 16.607782 0.157910 
+Rotate 0 0 1 0.620575 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.215569 16.961140 1.190703 
+Rotate 0 0 1 5.773814 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.268574 17.314497 0.197633 
+Rotate 0 0 1 0.066926 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.328646 17.314497 -0.000981 
+Rotate 0 0 1 2.747595 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 17.314497 0.118187 
+Rotate 0 0 1 5.066804 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 17.667854 0.157910 
+Rotate 0 0 1 1.885704 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 17.667854 0.277079 
+Rotate 0 0 1 3.655395 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 17.667854 0.634584 
+Rotate 0 0 1 4.990366 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.561859 18.021212 0.475693 
+Rotate 0 0 1 5.505491 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 18.374569 0.435970 
+Rotate 0 0 1 5.176590 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 18.374569 0.316801 
+Rotate 0 0 1 0.609947 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.328646 18.374569 0.078465 
+Rotate 0 0 1 4.295983 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 18.374569 0.197633 
+Rotate 0 0 1 4.380091 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 18.727926 0.634584 
+Rotate 0 0 1 5.102296 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 18.727926 0.316801 
+Rotate 0 0 1 0.496793 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 19.081284 0.396247 
+Rotate 0 0 1 2.217106 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.682003 19.081284 -0.000981 
+Rotate 0 0 1 2.599254 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 19.081284 0.316801 
+Rotate 0 0 1 3.706273 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 19.434641 0.833198 
+Rotate 0 0 1 2.827198 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.215569 19.434641 0.594861 
+Rotate 0 0 1 4.933915 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 19.787998 0.793475 
+Rotate 0 0 1 1.408340 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 19.787998 0.515415 
+Rotate 0 0 1 0.286238 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 19.787998 0.237356 
+Rotate 0 0 1 2.546275 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 20.141356 0.952366 
+Rotate 0 0 1 5.981124 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.568924 20.141356 0.714030 
+Rotate 0 0 1 3.379063 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 20.494713 0.833198 
+Rotate 0 0 1 2.414369 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.328646 20.494713 0.237356 
+Rotate 0 0 1 2.693841 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 20.494713 0.237356 
+Rotate 0 0 1 3.628360 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 20.848070 0.833198 
+Rotate 0 0 1 1.914238 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 21.201427 0.912644 
+Rotate 0 0 1 1.153638 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.268574 21.201427 0.714030 
+Rotate 0 0 1 5.593448 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.328646 21.201427 0.277079 
+Rotate 0 0 1 2.534813 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 21.201427 0.118187 
+Rotate 0 0 1 0.927452 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.922279 21.201427 0.594861 
+Rotate 0 0 1 5.660374 
+ObjectInstance "BUSH14" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 21.554785 0.872921 
+Rotate 0 0 1 0.792220 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.215569 21.554785 0.197633 
+Rotate 0 0 1 1.504067 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.268574 21.908142 0.555138 
+Rotate 0 0 1 3.055890 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.975288 21.908142 0.277079 
+Rotate 0 0 1 4.447615 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 22.261499 1.071535 
+Rotate 0 0 1 2.004245 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.561859 22.261499 0.833198 
+Rotate 0 0 1 4.071192 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.862213 22.261499 0.038742 
+Rotate 0 0 1 3.624205 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 22.614857 0.038742 
+Rotate 0 0 1 2.614192 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 22.968214 1.150981 
+Rotate 0 0 1 2.367175 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 22.968214 0.197633 
+Rotate 0 0 1 2.004296 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.568924 22.968214 0.157910 
+Rotate 0 0 1 1.716488 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.501787 23.321571 1.309872 
+Rotate 0 0 1 2.863967 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.561859 23.321571 0.872921 
+Rotate 0 0 1 5.731214 
+ObjectInstance "BUSH12" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 23.321571 0.157910 
+Rotate 0 0 1 4.315742 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.621931 23.674929 0.038742 
+Rotate 0 0 1 0.570241 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 24.028286 1.031812 
+Rotate 0 0 1 4.068223 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.561859 24.028286 0.753752 
+Rotate 0 0 1 4.759469 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.802147 24.028286 0.118187 
+Rotate 0 0 1 3.488392 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.508858 24.028286 0.237356 
+Rotate 0 0 1 5.864273 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 24.381643 0.872921 
+Rotate 0 0 1 2.815555 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.148430 24.735001 1.071535 
+Rotate 0 0 1 3.469516 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.448790 24.735001 0.157910 
+Rotate 0 0 1 3.243335 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.155502 24.735001 0.356524 
+Rotate 0 0 1 0.739736 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.795073 25.088358 1.031812 
+Rotate 0 0 1 1.673168 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 25.088358 0.356524 
+Rotate 0 0 1 0.871695 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.095432 25.088358 0.078465 
+Rotate 0 0 1 2.653974 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 25.441715 -0.000981 
+Rotate 0 0 1 2.826806 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 25.795073 0.356524 
+Rotate 0 0 1 0.465143 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.742075 25.795073 0.157910 
+Rotate 0 0 1 0.698599 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.501787 26.148430 0.316801 
+Rotate 0 0 1 3.754258 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.035360 26.148430 -0.000981 
+Rotate 0 0 1 1.635329 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.448790 26.148430 0.555138 
+Rotate 0 0 1 1.490819 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.795073 26.855145 0.316801 
+Rotate 0 0 1 0.768136 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 26.855145 -0.120150 
+Rotate 0 0 1 4.691219 
+ObjectInstance "BUSH110" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.035360 26.855145 0.197633 
+Rotate 0 0 1 1.448246 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.742075 26.855145 0.555138 
+Rotate 0 0 1 2.772381 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 27.208502 -0.080427 
+Rotate 0 0 1 2.762411 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.501787 27.561859 -0.000981 
+Rotate 0 0 1 5.072452 
+ObjectInstance "BUSH15" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.035360 27.561859 0.356524 
+Rotate 0 0 1 0.896384 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.682003 28.268574 0.277079 
+Rotate 0 0 1 0.639397 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.328646 28.975288 0.197633 
+Rotate 0 0 1 2.586559 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.742075 29.328646 0.753752 
+Rotate 0 0 1 2.612873 
+ObjectInstance "BUSH19" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.975288 30.035360 0.237356 
+Rotate 0 0 1 3.503364 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.035360 30.388718 0.753752 
+Rotate 0 0 1 3.827584 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.268574 31.095432 0.157910 
+Rotate 0 0 1 2.438427 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.328646 31.448790 0.634584 
+Rotate 0 0 1 5.583416 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 32.155502 0.277079 
+Rotate 0 0 1 3.405618 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.975288 32.862213 0.872921 
+Rotate 0 0 1 2.707707 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.208502 33.568924 0.594861 
+Rotate 0 0 1 4.581619 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.268574 33.568924 1.031812 
+Rotate 0 0 1 3.269891 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 34.275635 0.594861 
+Rotate 0 0 1 5.523262 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.915216 34.628990 1.150981 
+Rotate 0 0 1 3.560947 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.795073 34.982346 0.078465 
+Rotate 0 0 1 2.023038 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.501787 35.335701 0.515415 
+Rotate 0 0 1 0.262998 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.561859 36.042412 0.952366 
+Rotate 0 0 1 5.234115 
+ObjectInstance "BUSH18" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.441715 36.395767 0.197633 
+Rotate 0 0 1 4.404544 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.855145 36.749123 0.952366 
+Rotate 0 0 1 4.426783 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.088358 37.455833 0.316801 
+Rotate 0 0 1 2.060921 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.381643 38.162544 0.277079 
+Rotate 0 0 1 4.869688 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.795073 38.162544 0.714030 
+Rotate 0 0 1 5.125382 
+ObjectInstance "BUSH13" 
+AttributeEnd
+
+AttributeBegin
+Translate 23.674929 38.869255 0.157910 
+Rotate 0 0 1 1.324990 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.088358 38.869255 0.753752 
+Rotate 0 0 1 2.014828 
+ObjectInstance "BUSH17" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.381643 39.575966 0.753752 
+Rotate 0 0 1 2.126013 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 23.321571 39.929321 0.555138 
+Rotate 0 0 1 3.602938 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 22.614857 40.282677 0.237356 
+Rotate 0 0 1 2.215858 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.028286 40.636032 1.031812 
+Rotate 0 0 1 3.574259 
+ObjectInstance "BUSH17" 
+AttributeEnd
+
+AttributeBegin
+Translate 22.968214 40.989388 0.753752 
+Rotate 0 0 1 0.375319 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 22.261499 41.342743 0.475693 
+Rotate 0 0 1 0.488081 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 21.554785 41.696098 0.316801 
+Rotate 0 0 1 2.646711 
+ObjectInstance "BUSH16" 
+AttributeEnd
+
+AttributeBegin
+Translate 21.554785 42.402809 0.515415 
+Rotate 0 0 1 1.271704 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 21.908142 43.462875 1.031812 
+Rotate 0 0 1 1.127477 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 20.848070 43.816231 0.396247 
+Rotate 0 0 1 0.743081 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeBegin
+Translate 20.848070 44.876297 0.555138 
+Rotate 0 0 1 5.394389 
+ObjectInstance "BUSH11" 
+AttributeEnd
+
+AttributeEnd

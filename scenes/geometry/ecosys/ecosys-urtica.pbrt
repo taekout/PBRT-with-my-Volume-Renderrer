@@ -1,0 +1,2675 @@
+Include "geometry/ecosys/UrticaDioica10.pbrt"
+Include "geometry/ecosys/UrticaDioica1.pbrt"
+Include "geometry/ecosys/UrticaDioica2.pbrt"
+Include "geometry/ecosys/UrticaDioica3.pbrt"
+Include "geometry/ecosys/UrticaDioica4.pbrt"
+Include "geometry/ecosys/UrticaDioica5.pbrt"
+Include "geometry/ecosys/UrticaDioica6.pbrt"
+Include "geometry/ecosys/UrticaDioica7.pbrt"
+Include "geometry/ecosys/UrticaDioica8.pbrt"
+Include "geometry/ecosys/UrticaDioica9.pbrt"
+
+
+AttributeBegin
+Material "URTICADIOICA"
+
+AttributeBegin
+Translate 30.980379 2.745098 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 2.745098 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 2.745098 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 3.137255 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 3.137255 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 3.137255 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 3.137255 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 3.137255 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 3.529412 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 3.529412 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 3.529412 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 3.529412 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 3.529412 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 3.529412 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 3.529412 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 3.529412 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823544 3.529412 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 3.921569 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 3.921569 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 3.921569 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 3.921569 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 3.921569 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 3.921569 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 3.921569 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 4.313725 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 4.313725 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 4.313725 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.901958 4.313725 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.254910 4.313725 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.392178 4.313725 0.555138 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 4.705883 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 4.705883 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 4.705883 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 4.705883 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 4.705883 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 4.705883 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 4.705883 0.555138 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.078434 4.705883 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 5.098040 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 5.098040 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 5.098040 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 5.098040 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.078434 5.098040 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 5.098040 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 5.490197 -0.159872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 5.490197 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 5.490197 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 5.490197 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 5.490197 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 5.490197 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 5.490197 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 5.490197 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.254910 5.490197 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 5.490197 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 5.882354 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 5.882354 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 5.882354 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 5.882354 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 5.882354 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.078434 5.882354 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 5.882354 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.215702 5.882354 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 6.274511 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 6.274511 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 6.274511 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 6.274511 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 6.274511 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 6.274511 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.862751 6.274511 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823544 6.274511 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 6.666668 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 6.666668 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 6.666668 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 6.666668 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 6.666668 1.190703 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 6.666668 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 6.666668 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 7.058825 -0.159872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 7.058825 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 7.058825 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 7.058825 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 7.058825 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 7.450982 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 7.450982 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 7.450982 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 7.450982 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 7.843139 -0.199595 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 7.843139 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 7.843139 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 7.843139 1.309872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 8.235296 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 8.235296 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 8.235296 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 8.235296 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.901958 8.235296 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.607861 8.235296 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 8.627453 -0.199595 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 8.627453 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 8.627453 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 8.627453 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 8.627453 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 8.627453 1.270149 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 8.627453 1.389317 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 9.019609 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 9.019609 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 9.019609 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.901958 9.019609 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 9.019609 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 9.019609 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 9.411766 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 9.411766 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 9.411766 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 9.411766 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 9.411766 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.901958 9.411766 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 9.411766 1.190703 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.254910 9.411766 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823544 9.411766 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 9.803923 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 9.803923 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 9.803923 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 9.803923 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 9.803923 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.862751 9.803923 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 9.803923 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 9.803923 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.215702 9.803923 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 10.196079 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 10.196079 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 10.196079 0.555138 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 10.196079 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.078434 10.196079 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.000019 10.196079 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 10.588236 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 10.588236 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 10.588236 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 10.588236 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.254910 10.588236 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 10.588236 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 10.980392 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 10.980392 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 10.980392 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 10.980392 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 10.980392 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 10.980392 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 10.980392 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 11.372549 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 11.372549 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 11.372549 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.352970 11.372549 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 11.764706 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 11.764706 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 11.764706 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.254910 11.764706 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823544 11.764706 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 43.921604 11.764706 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 12.156862 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 12.156862 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 12.156862 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 12.156862 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 12.549019 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 12.549019 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 12.549019 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 12.941175 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 12.941175 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 12.941175 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.254910 12.941175 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.784336 12.941175 1.150981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 13.333332 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 13.333332 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 13.333332 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.000019 13.333332 1.071535 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 13.725489 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 13.725489 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 13.725489 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 13.725489 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.215702 13.725489 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 14.117645 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.745129 14.117645 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 43.921604 14.117645 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 14.509802 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 14.509802 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 14.509802 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.960812 14.509802 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 14.901958 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 14.901958 -0.159872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 14.901958 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823544 14.901958 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.607861 14.901958 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.784336 14.901958 1.071535 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 15.294115 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 15.294115 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 15.294115 1.270149 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 15.686272 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 15.686272 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 15.686272 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 16.078428 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.392178 16.078428 1.309872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 16.470585 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 16.470585 1.429040 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.607861 16.470585 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 43.137287 16.470585 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 16.862741 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 16.862741 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 16.862741 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 16.862741 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 17.254898 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 17.254898 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 17.647055 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 17.647055 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 17.647055 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 18.039211 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 18.039211 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 18.039211 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 18.431368 0.555138 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 18.431368 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 18.823524 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 18.823524 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 18.823524 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 18.823524 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.568653 18.823524 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 43.529446 18.823524 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 19.215681 -0.159872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 19.215681 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 19.215681 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 19.607838 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 19.607838 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 19.607838 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.784336 19.607838 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 19.999994 -0.199595 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 19.999994 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 19.999994 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 20.392151 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 20.392151 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 20.392151 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 20.392151 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 20.784307 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 20.784307 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 20.784307 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 20.784307 1.190703 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.392178 20.784307 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.745129 20.784307 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 21.176464 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 21.176464 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 21.176464 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.039227 21.176464 1.309872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 21.568621 -0.159872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 21.568621 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 21.568621 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 21.568621 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 21.568621 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.215702 21.568621 1.548209 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.568653 21.568621 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 21.960777 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 21.960777 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.901958 21.960777 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 21.960777 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 22.352934 -0.120150 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 22.352934 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 22.352934 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 22.352934 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.862751 22.352934 1.071535 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 22.352934 1.349595 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 22.745090 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 22.745090 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 22.745090 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 22.745090 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 22.745090 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 22.745090 0.555138 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.078434 22.745090 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 23.137247 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 23.137247 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 23.137247 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.784336 23.137247 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.745129 23.137247 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 23.529404 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 23.529404 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 23.529404 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 23.529404 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 23.529404 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.607861 23.529404 1.389317 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 23.921560 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 23.921560 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 23.921560 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.901958 23.921560 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.862751 23.921560 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 24.313717 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 24.313717 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 24.313717 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 24.313717 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 24.313717 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 24.313717 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 24.313717 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 24.705873 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 24.705873 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 24.705873 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 24.705873 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 25.098030 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 25.098030 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 25.098030 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 25.098030 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 25.098030 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470592 25.098030 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 25.490187 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 25.490187 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 25.490187 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.725483 25.490187 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 25.882343 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.941166 25.882343 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 25.882343 0.753752 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.686275 25.882343 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 26.274500 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 26.274500 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 26.274500 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 26.274500 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.431385 26.274500 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 26.666656 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 26.666656 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 26.666656 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.509800 26.666656 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.294117 26.666656 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647068 26.666656 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 27.058813 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 27.058813 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 27.450970 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 27.450970 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 27.450970 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 27.843126 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 27.843126 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 27.843126 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 28.235283 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 28.235283 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 28.235283 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 28.235283 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 28.627439 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 28.627439 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 28.627439 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 29.019596 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 29.019596 0.555138 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 29.411753 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 29.411753 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 29.411753 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 29.411753 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 29.411753 1.270149 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 29.803909 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 29.803909 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 29.803909 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 29.803909 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 30.196066 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 30.196066 0.435970 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 30.196066 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 30.196066 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.156849 30.196066 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 30.588223 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 30.588223 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.372536 30.588223 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 30.980379 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 30.980379 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 30.980379 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 30.980379 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 31.372536 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 31.372536 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 31.372536 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 31.764692 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 31.764692 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 31.764692 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 31.764692 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 31.764692 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 32.156849 0.118187 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 32.156849 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.803909 32.156849 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.588223 32.156849 1.071535 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 32.549007 0.237356 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 32.549007 0.594861 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 32.549007 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 32.549007 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 32.941166 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 32.941166 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 32.941166 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 32.941166 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 34.117641 32.941166 1.150981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 33.333324 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 31.764692 33.333324 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 32.549007 33.333324 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 33.333324 33.333324 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 33.725483 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 33.725483 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 33.725483 1.150981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.980379 33.725483 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 34.117641 0.912644 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 34.117641 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.666656 34.509800 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 34.509800 1.190703 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 34.901958 0.356524 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 34.901958 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 34.901958 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 35.294117 0.038742 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 35.294117 0.396247 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 35.294117 0.793475 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 30.196066 35.294117 1.150981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 35.686275 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 35.686275 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 35.686275 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.019596 35.686275 1.230426 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.098030 36.078434 -0.000981 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 36.078434 0.157910 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 36.078434 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.450970 36.078434 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.235283 36.078434 1.190703 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.705873 36.470592 -0.040704 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.098030 36.470592 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.882343 36.470592 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.666656 36.470592 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 36.470592 0.952366 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.313717 36.862751 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.098030 36.862751 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.882343 36.862751 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 29.411753 36.862751 1.468763 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 23.921560 37.254910 -0.080427 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.098030 37.254910 0.277079 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 37.254910 0.475693 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.882343 37.254910 0.674307 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.666656 37.254910 1.031812 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.843126 37.254910 1.468763 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.313717 37.647068 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.705873 37.647068 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 37.647068 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 23.921560 38.039227 0.078465 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.705873 38.039227 0.316801 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.098030 38.039227 0.515415 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.666656 38.039227 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 23.921560 38.431385 0.197633 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 38.431385 0.714030 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.666656 38.431385 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.705873 38.823544 0.634584 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA1" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 38.823544 0.833198 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 39.215702 1.071535 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 27.058813 39.215702 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 24.705873 39.607861 0.872921 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.098030 39.607861 0.992089 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA10" 
+AttributeEnd
+
+AttributeBegin
+Translate 26.274500 39.607861 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeBegin
+Translate 28.627439 39.607861 1.309872 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA9" 
+AttributeEnd
+
+AttributeBegin
+Translate 25.490187 40.000019 1.111258 
+Rotate 0 0 1 0.000000 
+ObjectInstance "URTICADIOICA2" 
+AttributeEnd
+
+AttributeEnd
+

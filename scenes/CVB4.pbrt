@@ -1,0 +1,101 @@
+#LookAt eye position(ex,ey,ez) lookAt position(lx,ly,lz) Camera Up Vector(ux,uy,uz)
+#Renderer "metropolis" "integer samplesperpixel" [8192] 
+    #"bool dodirectseparately" ["false"]
+#LookAt 2 1.5 0.9  1.0 1.0 1.0 0 0 1 #0 8 8  16.0  0.0 0.0 0 1 0 # When moving eye Y position, literally material moves to the left on screen.(That means exactly matched with the human eye when camera up vector=(0,0,1) and eye = (5, 1.1, 1.1)
+#LookAt 1.700000 1.350000 0.830000  1.0 1.0 1.0 0 0 1 #0 8 8  16.0  0.0 0.0 0 1 0 # When moving eye Y position, literally material moves to the left on screen.(That means exactly matched with the human eye when camera up vector=(0,0,1) and eye = (5, 1.1, 1.1)
+#1.990000 1.490000 1.240000
+#0.505 0.555 0.88
+#0.0595 0.5145 0.772
+LookAt 1.990000 1.490000 1.240000 0.010000 0.510000 0.760000 0 0 1 #0 8 8  16.0  0.0 0.0 0 1 0 # When moving eye Y position, literally material moves to the left on screen.(That means exactly matched with the human eye when camera up vector=(0,0,1) and eye = (5, 1.1, 1.1)
+# +z means that the picture will go up. -z means that the picture will go down.
+#Originally eye position 2 2 1.1 contains two fire 
+#Volume "volumegrid" "integer nx" 81 "integer ny" 41 "integer nz" 21
+#       "point p0" [ 0.010000 0.510000 0.760000 ] "point p1" [ 1.990000 1.490000 1.240000 ]
+Camera "perspective" "float fov" [28]
+Film "image" "integer xresolution" [200] "integer yresolution" [200]
+    "string filename" "CVB2.exr"
+
+Sampler "bestcandidate" "integer pixelsamples" [15]
+PixelFilter "triangle"
+
+VolumeIntegrator "forwardmultiple" "float stepsize" [0.005]
+                        "integer maxdepth" [5]
+                        "integer multiplescatterSamples" [15]
+                        "float howforward" [0.01]
+                        "bool closestLight" ["false"]
+WorldBegin
+
+Include "thesis/12SmokeDensity200.pbrt"
+        "bool Blackbody" ["true"]
+
+AttributeBegin
+###################################################################################LightSource "point" "point from" [1.9655555 0.77292681 1.2171428] "color I" [ 410000 34 29 ]
+LightSource "point" "point from" [0.010000 0.510000 2.0000] "color I" [ 0.1 0.1 0.1 ] #[2 2 1.1] "color I" [ 10000 1 1 ]
+                                                                                "bool FireLight" ["false"]
+                                                                                "float lightScale" [0.00001]
+																				"float backgroundI" [0.00001]
+																				#closestLight == true then lightScale == 0.000001
+																				#closestLight == false  then lightScale == 0.00001
+                                                                                "bool AutomaticLightPlacement" ["true"]
+                                                                                "integer VoxelLight" [1] #  0 - point light, 1 - voxel light, 2 - spherical light.
+                                                                                "float thresholdForLightPlacement" [1000.0] # 798 - min temp to radiate light. 1667 is the the threshold based on plankian locus.
+                                                                                "string hrrpuvFile" ["thesis/12SmokeHRRPUV200.pbrt"]
+                                                                                "string temperatureFile" ["thesis/12SmokeKelvinTemperature200.pbrt"]
+                                                                                #"color FireI" [1000 0 0]
+#LightSource "point" "point from" [3.3 6 -4] "color I" [3 3 3]
+#                                                                               "bool FireLight" ["false"]
+                                                                                 # 0.pPrev = (0.034, 1.18, 1.39)
+                                                                                 # 1.pCur =  (0.033, 1.98, 1.36)
+                                                                                 # light pos = { x=0.56687498 y=0.38124999 z=0.93812501 },
+                                                                                 #             { x=1.6806250  y=1.2474999  z=0.93812501 },
+                                                                                 #             { x=0.62874997 y=1.2474999  z=1.6187500  }
+AttributeEnd
+
+WorldEnd
+  # make reasonable fire model.(shape)
+  # test sigma_s = 0
+  # test some increasing sigma_s up to 4( as an upper limit.)
+  # phase function is the last thing to worry about. g can be 0.
+  # make shadow from sun light.(Sigma_s becomes important.)
+  # Temperature high = white, T mid = (low+high) = yellow, low =red. (Plank function = B(T))
+
+#Max HRRPUV : 2500
+#Max Idx : 53, 0, 0
+#Count Over 1 : 2857
+#Count Over 10 : 2515
+#Count Over 100 : 1977
+#Count Over 2000 : 33
+#Index over 1000 : 49, 3, 5 : HRV= 1061.6
+#Index over 1000 : 53, 3, 5 : HRV= 1066.3
+##Index over 1000 : 64, 3, 5 : HRV= 1243.8
+#Index over 1000 : 65, 3, 5 : HRV= 1186.5
+##Index over 1000 : 65, 4, 5 : HRV= 1092.6
+#Index over 1000 : 66, 4, 5 : HRV= 1097.9
+#Index over 1000 : 66, 5, 5 : HRV= 1203.6
+#Index over 1000 : 67, 6, 5 : HRV= 1105.3
+#Index over 1000 : 67, 7, 5 : HRV= 1089
+#Index over 1000 : 46, 0, 6 : HRV= 1656.6
+#Index over 1000 : 47, 0, 6 : HRV= 1250
+#Index over 1000 : 52, 0, 6 : HRV= 1261.2
+#Index over 1000 : 46, 1, 6 : HRV= 1351.7
+#Index over 1000 : 51, 1, 6 : HRV= 1177
+#Index over 1000 : 52, 1, 6 : HRV= 1310.4
+#Index over 1000 : 46, 2, 6 : HRV= 1171
+#Index over 1000 : 53, 2, 6 : HRV= 1095.3
+#Index over 1000 : 54, 2, 6 : HRV= 1086.1
+##Index over 1000 : 55, 2, 6 : HRV= 1033.7
+#Index over 1000 : 65, 2, 6 : HRV= 1005.2
+##Index over 1000 : 48, 3, 6 : HRV= 1305.5
+###Index over 1000 : 65, 3, 6 : HRV= 1002.4
+###Index over 1000 : 66, 4, 6 : HRV= 1025.2
+#Index over 1000 : 67, 5, 6 : HRV= 1122.3
+#Index over 1000 : 46, 0, 7 : HRV= 1438
+#Index over 1000 : 52, 0, 7 : HRV= 1006.1
+#Index over 1000 : 66, 0, 7 : HRV= 1088.8
+##Index over 1000 : 46, 1, 7 : HRV= 1043.1
+#Index over 1000 : 45, 2, 7 : HRV= 1397.1
+#Index over 1000 : 80, 3, 20 : HRV= 2500
+#Index over 1000 : 78, 11, 20 : HRV= 2016
+#Index over 1000 : 79, 11, 20 : HRV= 2500
+#Index over 1000 : 80, 11, 20 : HRV= 2500
+#{x=1.9655555 y=0.77292681 z=1.2171428 }        Point

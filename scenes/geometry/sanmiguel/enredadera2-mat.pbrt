@@ -1,0 +1,180 @@
+
+### Object: Enredadera ### 
+Texture "Tronco_Diffuse" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/bark06mi.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.5]
+	 "float vscale" [30.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Tronco_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/bark06mi.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.5]
+	 "float vscale" [30.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Tronco_Bump_bump" "float" "scale" "texture tex1" "Tronco_Bump" "float tex2" [0.5]  
+MakeNamedMaterial "Tronco" 
+	 "string type" ["matte"] 
+	 "texture Kd" ["Tronco_Diffuse"]
+	 "texture bumpmap" ["Tronco_Bump_bump"]
+
+### End Object: Enredadera ### 
+
+### Object: Hoja_Verde_A01 ### 
+Texture "Map #25" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l33-upper.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Hojas VerdesBump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l33-upper.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Hojas VerdesBump_bump" "float" "scale" "texture tex1" "Hojas VerdesBump" "float tex2" [0.01]  
+Texture "Map #26" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l33-clip.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Hoja_Verde_B" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.4 0.4 0.4]
+	 "color transmit" [0.4 0.4 0.4]
+	 "texture Kd" ["Map #25"]
+	 "texture bumpmap" ["Hojas VerdesBump_bump"]
+
+### End Object: Hoja_Verde_A01 ### 
+
+### Object: Hoja_Verde_A21384 ### 
+Texture "Map #27" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l37-upper.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Hojas Verdes 1 topBump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l37-upper.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Hojas Verdes 1 topBump_bump" "float" "scale" "texture tex1" "Hojas Verdes 1 topBump" "float tex2" [0.015]  
+Texture "Map #28" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l37-clip.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Hoja_Verde_A" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.4 0.4 0.4]
+	 "color transmit" [0.4 0.4 0.4]
+	 "texture Kd" ["Map #27"]
+	 "texture bumpmap" ["Hojas Verdes 1 topBump_bump"]
+
+### End Object: Hoja_Verde_A21384 ### 
+
+### Object: Hoja_Roja01 ### 
+Texture "Map #29" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l04-upper.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Hojas Rojas top_Bump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l04-upper.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Hojas Rojas top_Bump_bump" "float" "scale" "texture tex1" "Hojas Rojas top_Bump" "float tex2" [0.01]  
+Texture "Map #30" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/l04-clip.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Hojas Rojas top" 
+	 "string type" ["translucent"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "color reflect" [0.4 0.4 0.4]
+	 "color transmit" [0.4 0.4 0.4]
+	 "texture Kd" ["Map #29"]
+	 "texture bumpmap" ["Hojas Rojas top_Bump_bump"]
+
+### End Object: Hoja_Roja01 ### 

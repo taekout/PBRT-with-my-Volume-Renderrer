@@ -1,0 +1,918 @@
+Include "geometry/ecosys/Dandelion110.pbrt"
+Include "geometry/ecosys/Dandelion11.pbrt"
+Include "geometry/ecosys/Dandelion12.pbrt"
+Include "geometry/ecosys/Dandelion13.pbrt"
+Include "geometry/ecosys/Dandelion14.pbrt"
+Include "geometry/ecosys/Dandelion15.pbrt"
+Include "geometry/ecosys/Dandelion16.pbrt"
+Include "geometry/ecosys/Dandelion17.pbrt"
+Include "geometry/ecosys/Dandelion18.pbrt"
+Include "geometry/ecosys/Dandelion19.pbrt"
+
+
+AttributeBegin
+Material "DANDELION1"
+
+AttributeBegin
+Translate 38.823563 2.823529 0.197633 
+Rotate 0 0 1 0.237271 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.058857 3.529412 0.356524 
+Rotate 0 0 1 0.205981 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.529446 4.000000 0.515415 
+Rotate 0 0 1 2.630517 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.058857 4.235294 0.555138 
+Rotate 0 0 1 1.314016 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.764740 4.235294 0.555138 
+Rotate 0 0 1 4.101838 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823563 4.470589 0.594861 
+Rotate 0 0 1 2.127020 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.294151 4.470589 0.674307 
+Rotate 0 0 1 3.783178 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.058857 4.705883 0.753752 
+Rotate 0 0 1 0.308966 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.529446 4.705883 0.753752 
+Rotate 0 0 1 5.397989 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.764740 4.705883 0.753752 
+Rotate 0 0 1 5.923563 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.294151 5.176472 0.872921 
+Rotate 0 0 1 3.619786 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.235329 5.176472 0.714030 
+Rotate 0 0 1 0.011383 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 5.647060 0.674307 
+Rotate 0 0 1 0.109769 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.000034 5.882355 0.872921 
+Rotate 0 0 1 3.280681 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 5.882355 0.793475 
+Rotate 0 0 1 5.203501 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 6.117649 0.674307 
+Rotate 0 0 1 2.982538 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 6.117649 0.555138 
+Rotate 0 0 1 2.200810 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 6.352943 0.753752 
+Rotate 0 0 1 3.837015 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.941212 6.352943 0.634584 
+Rotate 0 0 1 1.987146 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.000034 6.588238 0.833198 
+Rotate 0 0 1 1.699669 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.411797 7.058826 1.230426 
+Rotate 0 0 1 0.610091 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 7.058826 0.674307 
+Rotate 0 0 1 2.334661 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 7.058826 0.594861 
+Rotate 0 0 1 3.702067 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470619 7.294121 1.349595 
+Rotate 0 0 1 1.949230 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.176502 7.294121 1.270149 
+Rotate 0 0 1 2.102549 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.764736 7.529415 1.389317 
+Rotate 0 0 1 3.062973 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.705914 7.529415 1.389317 
+Rotate 0 0 1 1.583013 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.411797 7.529415 1.190703 
+Rotate 0 0 1 5.868095 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.117680 7.529415 1.071535 
+Rotate 0 0 1 2.712716 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.941208 7.764709 1.349595 
+Rotate 0 0 1 0.249296 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.176502 7.764709 1.309872 
+Rotate 0 0 1 3.990058 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647091 7.764709 1.150981 
+Rotate 0 0 1 2.949986 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470619 8.000004 1.389317 
+Rotate 0 0 1 0.455277 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647091 8.000004 1.190703 
+Rotate 0 0 1 0.620575 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 8.000004 0.594861 
+Rotate 0 0 1 5.773814 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.235329 8.235298 0.674307 
+Rotate 0 0 1 0.066926 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 8.235298 0.674307 
+Rotate 0 0 1 2.747595 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 8.235298 0.753752 
+Rotate 0 0 1 5.066804 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.294151 8.470592 0.674307 
+Rotate 0 0 1 1.885704 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 8.705887 0.674307 
+Rotate 0 0 1 3.655395 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 8.705887 0.714030 
+Rotate 0 0 1 4.990366 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.117683 8.705887 0.992089 
+Rotate 0 0 1 5.505491 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 8.941181 0.714030 
+Rotate 0 0 1 5.176590 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.882389 8.941181 0.952366 
+Rotate 0 0 1 0.609947 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 9.176476 0.753752 
+Rotate 0 0 1 4.295983 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 9.176476 0.833198 
+Rotate 0 0 1 4.380091 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 9.411770 0.833198 
+Rotate 0 0 1 5.102296 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.117683 9.411770 0.992089 
+Rotate 0 0 1 0.496793 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 9.647064 0.872921 
+Rotate 0 0 1 2.217106 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.882389 9.647064 0.952366 
+Rotate 0 0 1 2.599254 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 9.882359 0.912644 
+Rotate 0 0 1 3.706273 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 10.117653 0.833198 
+Rotate 0 0 1 2.827198 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.117683 10.117653 0.912644 
+Rotate 0 0 1 4.933915 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.882389 10.352947 0.912644 
+Rotate 0 0 1 1.408340 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 10.588242 0.952366 
+Rotate 0 0 1 0.286238 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 10.823536 1.031812 
+Rotate 0 0 1 2.546275 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 10.823536 0.992089 
+Rotate 0 0 1 5.981124 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 11.058830 1.111258 
+Rotate 0 0 1 3.379063 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.941212 11.058830 1.071535 
+Rotate 0 0 1 2.414369 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 11.058830 0.952366 
+Rotate 0 0 1 2.693841 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 11.294125 1.150981 
+Rotate 0 0 1 3.628360 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 11.294125 1.111258 
+Rotate 0 0 1 1.914238 
+Scale 1 1 1
+ObjectInstance "DANDELION13" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.941212 11.529419 1.190703 
+Rotate 0 0 1 1.153638 
+Scale 1 1 1
+ObjectInstance "DANDELION13" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 11.529419 0.952366 
+Rotate 0 0 1 5.593448 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeEnd
+
+AttributeBegin
+Material "DANDELION2"
+
+AttributeBegin
+Translate 38.823563 2.823529 0.197633 
+Rotate 0 0 1 0.237271 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.058857 3.529412 0.356524 
+Rotate 0 0 1 0.205981 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.529446 4.000000 0.515415 
+Rotate 0 0 1 2.630517 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.058857 4.235294 0.555138 
+Rotate 0 0 1 1.314016 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.764740 4.235294 0.555138 
+Rotate 0 0 1 4.101838 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.823563 4.470589 0.594861 
+Rotate 0 0 1 2.127020 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.294151 4.470589 0.674307 
+Rotate 0 0 1 3.783178 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.058857 4.705883 0.753752 
+Rotate 0 0 1 0.308966 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.529446 4.705883 0.753752 
+Rotate 0 0 1 5.397989 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.764740 4.705883 0.753752 
+Rotate 0 0 1 5.923563 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.294151 5.176472 0.872921 
+Rotate 0 0 1 3.619786 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.235329 5.176472 0.714030 
+Rotate 0 0 1 0.011383 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 5.647060 0.674307 
+Rotate 0 0 1 0.109769 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.000034 5.882355 0.872921 
+Rotate 0 0 1 3.280681 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 5.882355 0.793475 
+Rotate 0 0 1 5.203501 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 6.117649 0.674307 
+Rotate 0 0 1 2.982538 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 6.117649 0.555138 
+Rotate 0 0 1 2.200810 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 6.352943 0.753752 
+Rotate 0 0 1 3.837015 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.941212 6.352943 0.634584 
+Rotate 0 0 1 1.987146 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.000034 6.588238 0.833198 
+Rotate 0 0 1 1.699669 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.411797 7.058826 1.230426 
+Rotate 0 0 1 0.610091 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 7.058826 0.674307 
+Rotate 0 0 1 2.334661 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 7.058826 0.594861 
+Rotate 0 0 1 3.702067 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470619 7.294121 1.349595 
+Rotate 0 0 1 1.949230 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.176502 7.294121 1.270149 
+Rotate 0 0 1 2.102549 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 35.764736 7.529415 1.389317 
+Rotate 0 0 1 3.062973 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.705914 7.529415 1.389317 
+Rotate 0 0 1 1.583013 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.411797 7.529415 1.190703 
+Rotate 0 0 1 5.868095 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 38.117680 7.529415 1.071535 
+Rotate 0 0 1 2.712716 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.941208 7.764709 1.349595 
+Rotate 0 0 1 0.249296 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.176502 7.764709 1.309872 
+Rotate 0 0 1 3.990058 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647091 7.764709 1.150981 
+Rotate 0 0 1 2.949986 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 36.470619 8.000004 1.389317 
+Rotate 0 0 1 0.455277 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 37.647091 8.000004 1.190703 
+Rotate 0 0 1 0.620575 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 8.000004 0.594861 
+Rotate 0 0 1 5.773814 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.235329 8.235298 0.674307 
+Rotate 0 0 1 0.066926 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 8.235298 0.674307 
+Rotate 0 0 1 2.747595 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 8.235298 0.753752 
+Rotate 0 0 1 5.066804 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 39.294151 8.470592 0.674307 
+Rotate 0 0 1 1.885704 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 8.705887 0.674307 
+Rotate 0 0 1 3.655395 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 8.705887 0.714030 
+Rotate 0 0 1 4.990366 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.117683 8.705887 0.992089 
+Rotate 0 0 1 5.505491 
+Scale 1 1 1
+ObjectInstance "DANDELION12" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 8.941181 0.714030 
+Rotate 0 0 1 5.176590 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.882389 8.941181 0.952366 
+Rotate 0 0 1 0.609947 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 9.176476 0.753752 
+Rotate 0 0 1 4.295983 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 9.176476 0.833198 
+Rotate 0 0 1 4.380091 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 9.411770 0.833198 
+Rotate 0 0 1 5.102296 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.117683 9.411770 0.992089 
+Rotate 0 0 1 0.496793 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 9.647064 0.872921 
+Rotate 0 0 1 2.217106 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.882389 9.647064 0.952366 
+Rotate 0 0 1 2.599254 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 9.882359 0.912644 
+Rotate 0 0 1 3.706273 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 10.117653 0.833198 
+Rotate 0 0 1 2.827198 
+Scale 1 1 1
+ObjectInstance "DANDELION19" 
+AttributeEnd
+
+AttributeBegin
+Translate 42.117683 10.117653 0.912644 
+Rotate 0 0 1 4.933915 
+Scale 1 1 1
+ObjectInstance "DANDELION16" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.882389 10.352947 0.912644 
+Rotate 0 0 1 1.408340 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 10.588242 0.952366 
+Rotate 0 0 1 0.286238 
+Scale 1 1 1
+ObjectInstance "DANDELION14" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 10.823536 1.031812 
+Rotate 0 0 1 2.546275 
+Scale 1 1 1
+ObjectInstance "DANDELION15" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.411800 10.823536 0.992089 
+Rotate 0 0 1 5.981124 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.705917 11.058830 1.111258 
+Rotate 0 0 1 3.379063 
+Scale 1 1 1
+ObjectInstance "DANDELION18" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.941212 11.058830 1.071535 
+Rotate 0 0 1 2.414369 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 11.058830 0.952366 
+Rotate 0 0 1 2.693841 
+Scale 1 1 1
+ObjectInstance "DANDELION17" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.470623 11.294125 1.150981 
+Rotate 0 0 1 3.628360 
+Scale 1 1 1
+ObjectInstance "DANDELION11" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.176506 11.294125 1.111258 
+Rotate 0 0 1 1.914238 
+Scale 1 1 1
+ObjectInstance "DANDELION13" 
+AttributeEnd
+
+AttributeBegin
+Translate 40.941212 11.529419 1.190703 
+Rotate 0 0 1 1.153638 
+Scale 1 1 1
+ObjectInstance "DANDELION13" 
+AttributeEnd
+
+AttributeBegin
+Translate 41.647095 11.529419 0.952366 
+Rotate 0 0 1 5.593448 
+Scale 1 1 1
+ObjectInstance "DANDELION110" 
+AttributeEnd
+
+AttributeEnd
+

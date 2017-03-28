@@ -1,0 +1,58 @@
+############################################################################
+#
+# This RIB file describes the famous "Cornell Box", which is a test scene
+# commonly used to demonstrate radiosity.
+#
+############################################################################
+#PixelSamples 2 2
+#CropWindow .3 .4 .2 .3
+#Quantize "rgba" 0 0 0 0
+Scale -1.000000 1.000000 1.000000
+# ignored Orientation "rh"
+##CameraOrientation 278 273 -800 278 273 0 0 1 0
+ConcatTransform [ 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 ]
+Translate -278.000000 -273.000000 500.000000
+#SurfaceIntegrator "whitted"
+
+#SurfaceIntegrator "directlighting"
+VolumeIntegrator "single" "float stepsize" [10.0]
+Camera "perspective" "float fov" [55.000000 ] "float shutteropen" [0.000000 ] "float shutterclose" [0.000000 ] "float frameaspectratio" [1.000000 ] 
+Film "image" "integer xresolution" [750 ] "integer yresolution" [750 ]
+    "string filename" "CB.exr"
+
+PixelFilter "box"
+Sampler "lowdiscrepancy" "integer pixelsamples" [8]
+Renderer "sampler"
+
+WorldBegin
+############################################################################
+# Light Source Definitions
+############################################################################
+AttributeBegin
+    #Rotate 10 1 0 0 
+    Translate 278.000000 278.000000 279.500000
+    LightSource "point" "point from" [0.000000 200.000000 0.000000 ] "color I" [412300 341100 298600 ] 
+AttributeEnd
+# ignored Illuminate 1.000000 1.000000
+
+
+Include "geometry/mine_h.pbrt"
+  "color sigma_a" [0.1 0.1 0.1] "color sigma_s" [0.1 0.1 0.1]
+  "color Le" [1 1 1]
+
+
+############################################################################
+# Wall Definitions
+############################################################################
+AttributeBegin
+    #Sides 1
+    #Material "plastic"
+    Material "matte" "color Kd" [.5 .5 .5]
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [550.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 560.000000 550.000000 0.000000 560.000000 ] 
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [560.000000 550.000000 0.000000 560.000000 550.000000 560.000000 0.000000 550.000000 560.000000 0.000000 550.000000 0.000000 ] 
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [550.000000 0.000000 560.000000 0.000000 0.000000 560.000000 0.000000 550.000000 560.000000 560.000000 550.000000 560.000000 ] 
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [0.000000 0.000000 560.000000 0.000000 0.000000 0.000000 0.000000 550.000000 0.000000 0.000000 550.000000 560.000000 ] 
+        Material "matte" "color Kd" [.9 .5 .5]
+    Shape "trianglemesh"  "integer indices" [0 2 1 0 3 2 ] "point P" [550.000000 0.000000 0.000000 550.000000 0.000000 560.000000 560.000000 550.000000 560.000000 560.000000 550.000000 0.000000 ] 
+AttributeEnd
+WorldEnd

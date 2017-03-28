@@ -1,0 +1,64 @@
+# Gtool Exporter Ver. 1.00 for pbrt v2.0 Render, www.pbrt.org 
+# Created by Guillermo M. Leal LLaguno,  g.llaguno@evvisual.com,  www.evvisual.com 
+# Exported on: 1/20/2010 11:38:05 PM 
+
+Scale -1 1 1  # account for fixed lookat bug... 
+
+# Camera Camera01
+LookAt 24.6906 -3.38661 1.31022
+		 23.7742 -3.03482 1.11941
+		 -0.178136 0.0683798 0.981627
+
+Camera "perspective" 
+	 "float fov" [25.2079] 
+	 "float shutteropen" [0.0] 
+	 "float shutterclose" [1.0] 
+	 "float lensradius" [0.0] 
+	 "float focaldistance" [1e+006] 
+
+Film "image" 
+	 "integer xresolution"  [600]
+	 "integer yresolution"  [600]
+	 "string filename"  ["plantas.exr"]
+# End Camera Camera01
+
+PixelFilter "mitchell" 
+	 "float xwidth" [0.5] 
+	 "float ywidth" [0.5] 
+	 "float B" [0.67] 
+	 "float C" [0.165] 
+
+Sampler "lowdiscrepancy" 
+	 "integer pixelsamples" [4] 
+
+SurfaceIntegrator "directlighting" 
+	 "integer maxdepth" [8.0] 
+
+VolumeIntegrator "single" 
+	 "float stepsize" [1.0] 
+
+Renderer "sample" 
+
+ Accelerator "bvh" 
+
+
+WorldBegin
+
+
+# Enviorment 
+
+AttributeBegin 
+Rotate 90.0 0 0 1
+LightSource "infinite" 
+"integer nsamples" [8]
+"color scale" [1.0 1.0 1.0]
+	"string mapname" ["L:\\Texturas\\HDRI\\RenoSuburb01_sm.exr"]
+AttributeEnd 
+
+# ***** Lights ***** 
+
+# ***** End  Lights *****
+Include "plantas-mat.pbrt" 
+Include "plantas-geom.pbrt" 
+
+WorldEnd

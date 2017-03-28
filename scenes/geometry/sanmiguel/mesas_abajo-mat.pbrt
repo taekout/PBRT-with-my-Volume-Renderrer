@@ -1,0 +1,211 @@
+
+### Object: Silla D Tachuela335 ### 
+Texture "Map #482" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Fierro_A.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #489" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Fierro_A_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #489_KsMap" "color" "scale" "texture tex1" ["Map #489"] "color tex2" [1.0 1.0 1.0]  
+Texture "Map #483" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/Fierro_A_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #483_bump" "float" "scale" "texture tex1" "Map #483" "float tex2" [0.01]  
+MakeNamedMaterial "Silla D Tachuelas" 
+	 "string type" ["plastic"] 
+	 "float roughness"  [0.6] 
+	 "texture Kd" ["Map #482"]
+	 "texture Ks" ["Map #489_KsMap"]
+	 "texture bumpmap" ["Map #483_bump"]
+
+### End Object: Silla D Tachuela335 ### 
+
+### Object: Silla D Cuero23 ### 
+Texture "Map #480" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/silla_d_piel.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #481" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/silla_d_piel_bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #481_bump" "float" "scale" "texture tex1" "Map #481" "float tex2" [0.005]  
+MakeNamedMaterial "Silla D Piel" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.0784314 0.0784314 0.0784314]
+	 "float roughness"  [0.2] 
+	 "texture Kd" ["Map #480"]
+	 "texture bumpmap" ["Map #481_bump"]
+
+### End Object: Silla D Cuero23 ### 
+
+### Object: Silla D Respaldo Madera 03 ### 
+Texture "MaderaMesasMap" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/WOOD08.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "MaderaMEsaBump" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/WOOD08_Bump.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "MaderaMEsaBump_bump" "float" "scale" "texture tex1" "MaderaMEsaBump" "float tex2" [0.015]  
+MakeNamedMaterial "Silla D Madera" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.156863 0.156863 0.156863]
+	 "float roughness"  [0.15] 
+	 "texture Kd" ["MaderaMesasMap"]
+	 "texture bumpmap" ["MaderaMEsaBump_bump"]
+
+### End Object: Silla D Respaldo Madera 03 ### 
+
+### Object: Mesa D Poste23 ### 
+MakeNamedMaterial "Mesa D Madera Patas" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "texture Kd" ["MaderaMesasMap"]
+	 "texture bumpmap" ["MaderaMEsaBump_bump"]
+
+### End Object: Mesa D Poste23 ### 
+
+### Object: Mesa D Azulejo05 ### 
+Texture "Map #478" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/tapa_talabera.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Mesa D Talabera" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "texture Kd" ["Map #478"]
+
+### End Object: Mesa D Azulejo05 ### 
+
+### Object: Mesa Set D Orilla ### 
+MakeNamedMaterial "Mesa D Madera Orilla" 
+	 "string type" ["plastic"] 
+	 "color Ks" [0.0 0.0 0.0]
+	 "float roughness"  [0.0] 
+	 "texture Kd" ["MaderaMesasMap"]
+	 "texture bumpmap" ["MaderaMEsaBump_bump"]
+
+### End Object: Mesa Set D Orilla ### 
+
+### Object: Tela Mesa Cuadrada Amarilla 08 ### 
+Texture "Map #485" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/tela_mesa_d.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+Texture "Map #491" "float" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/tela_mesa_cuadrada_alpah.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Tela Mesa D 2" 
+	 "string type" ["matte"] 
+	 "float sigma" [10.0]
+	 "texture Kd" ["Map #485"]
+
+### End Object: Tela Mesa Cuadrada Amarilla 08 ### 
+
+### Object: Tela Mesa Cuadrada Roja 08 ### 
+Texture "Map #484" "color" "imagemap"
+	 "string mapping" "uv"
+	 "string wrap" ["repeat"] 
+	 "string filename" ["textures/sanmiguel/tela_mesa_b.tga"]
+	 "float gamma" [1.0]
+	 "string mapping" ["uv"]
+	 "float uscale" [1.0]
+	 "float vscale" [1.0]
+	 "float udelta" [0.0]
+	 "float vdelta" [0.0]
+	 "float maxanisotropy" [8.0]
+	 "bool trilinear" ["false"]
+MakeNamedMaterial "Tela Mesa D" 
+	 "string type" ["matte"] 
+	 "float sigma" [5.0]
+	 "texture Kd" ["Map #484"]
+
+### End Object: Tela Mesa Cuadrada Roja 08 ### 
